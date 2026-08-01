@@ -53,10 +53,19 @@ def main():
 
 
     # 執行 SCRIPT_FETCH
-    import_module(
+    module = import_module(
         script_path,
         "SCRIPT_FETCH"
     )
+
+    # exec_module() only runs top-level code; the script's own
+    # `if __name__ == "__main__":` guard never fires because its
+    # __name__ is "SCRIPT_FETCH", not "__main__". Call main()
+    # explicitly and propagate its exit code.
+    if hasattr(module, "main"):
+        exit_code = module.main()
+        if exit_code:
+            sys.exit(exit_code)
 
 
 if __name__ == "__main__":

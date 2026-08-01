@@ -1,0 +1,133 @@
+{
+  "_lang": "English",
+  "title": "Sky: CotL — Regional Store Pricing",
+  "hint": "Regional prices are set by the store operator. Data refreshes every 30 minutes, or enter the password below to refresh immediately.",
+  "disclaimer": "Regional pricing is configured by the store operator and may differ due to exchange rates, taxes, and regional strategy. This page is for reference only and does not provide any purchase or cross-region checkout function.",
+  "footer": "Unofficial project, not affiliated with thatgamecompany. Data from the official store's public API.",
+  "tabs": {
+    "price": "Prices",
+    "diff": "Latest changes",
+    "history": "History"
+  },
+  "search": "Search packs / event names…",
+  "baseLabel": "Base currency",
+  "modeLabel": "Show",
+  "sortLabel": "Sort",
+  "modes": {
+    "converted": "Converted",
+    "original": "Original"
+  },
+  "sorts": {
+    "cheapest": "Lowest price (cheap → pricey)",
+    "priciest": "Lowest price (pricey → cheap)",
+    "spread": "Regional spread (wide → narrow)",
+    "unit": "Price per candle (low → high)",
+    "name": "Name",
+    "group": "Category"
+  },
+  "regionsLabel": "Regions to compare",
+  "all": "All",
+  "none": "None",
+  "default": "Default",
+  "copyLink": "Copy link",
+  "copied": "Copied",
+  "onlyActive": "Limited-time only",
+  "groupsAll": "All",
+  "groups": {
+    "candles": "Candles",
+    "seasons": "Seasons",
+    "events": "Events",
+    "event2": "Events 2",
+    "evergreen": "Evergreen",
+    "other": "Other"
+  },
+  "head": {
+    "item": "Item",
+    "unit": "Lowest Price/Candle",
+    "min": "Lowest",
+    "max": "Highest",
+    "spread": "Spread"
+  },
+  "permanent": "Permanent",
+  "until": "Until {d}",
+  "units": {
+    "d": "d",
+    "h": "h",
+    "m": "m",
+    "s": "s"
+  },
+  "endsIn": "{t} left",
+  "startsIn": "starts in {t}",
+  "endedAgo": "ended {t} ago",
+  "life": {
+    "run": "run #{n}",
+    "back": "last delisted {d}",
+    "gone": "delisted {n}d ago"
+  },
+  "badges": {
+    "web_exclusive": "Web exclusive",
+    "free": "Free",
+    "uses": "{n} uses",
+    "unavailable": "Not purchasable here"
+  },
+  "switchNote": "Candles bought on a Nintendo Switch device are exclusively usable within that platform, while in-app purchases (IAPs), events, and season passes remain accessible across all platforms.",
+  "switchTag": "Switch limits",
+  "showing": "Showing {shown} / {all} items · {regions} regions",
+  "updated": "Updated {t}",
+  "rateNote": "Rates {date} ({src})",
+  "rateMissing": "No exchange rates this run — showing original currency only",
+  "emptyItems": "No matching items",
+  "emptyRegions": "Pick at least one region",
+  "fetchError": "Failed to load {n}",
+  "diff": {
+    "title": "Changes since last update",
+    "added": "Added",
+    "removed": "Removed",
+    "changed": "Price changes",
+    "none": "No recorded change",
+    "emptyAdd": "Nothing added",
+    "emptyDel": "Nothing removed",
+    "emptyChg": "No price changes",
+    "recorded": "Recorded {t}",
+    "unchanged": "No further change since last recorded diff",
+    "count": "{n} of {limit} kept"
+  },
+  "history": {
+    "title": "Change history",
+    "empty": "No history yet",
+    "summary": "+{a} added · −{r} removed · {c} repriced"
+  },
+  "chart": {
+    "local": "Local currency",
+    "converted": "Converted",
+    "noData": "Not enough history for this item yet",
+    "close": "Close",
+    "hint": "Converted using the rate at each point in time, not today's rate — diverging lines mean the currency actually moved.",
+    "points": "Data points",
+    "date": "Date",
+    "localPrice": "Local",
+    "basePrice": "Converted"
+  },
+  "fx": {
+    "heading": "Reprice vs currency",
+    "repriced": "Store reprice",
+    "rate": "Currency move",
+    "total": "Net effect",
+    "noReprice": "Local price unchanged",
+    "period": "{a} → {b}",
+    "insufficient": "Not enough data points to split"
+  },
+  "gone": " (delisted)",
+  "isNew": " (new)",
+  "refresh": {
+    "placeholder": "Enter password to refresh now…",
+    "button": "Refresh now",
+    "triggering": "Triggering…",
+    "success": "Triggered — reload this page in about a minute to see the new data.",
+    "wrongPassword": "Wrong password.",
+    "tooSoon": "Too soon, try again in {s}s.",
+    "error": "Failed to trigger, please try again later.",
+    "notConfigured": "Refresh service not configured yet."
+  },
+  "demoWarning": "⚠ Showing demo data — these are not real prices. Run scripts/fetch_store.py for live data."
+}

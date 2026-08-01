@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101827">
+  <title>Sky: CotL — Regional Store Pricing</title>
+  <meta name="description" content="Compare Sky: Children of the Light store prices across 37 regions, with currency conversion, price-per-candle, history charts. Unofficial.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <script>window.APP_LANG = "en";</script>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<main>
+  <nav class="lang-switch">
+    <a href="../tw/">繁體中文</a>
+    <a href="../cn/">简体中文</a>
+    <a href="../en/" class="current">English</a>
+    <a href="../ja/">日本語</a>
+    <a href="../ko/">한국어</a>
+  </nav>
+
+  <h1 id="pageTitle"></h1>
+  <div class="hint" id="hint"></div>
+
+  <section class="card">
+    <p id="fetchMeta" class="meta"></p>
+    <p id="msg"></p>
+    <div class="row refresh-row">
+      <input type="password" id="refreshPassword" class="field-grow" autocomplete="off">
+      <button type="button" id="refreshBtn" class="secondary"></button>
+    </div>
+    <p id="refreshStatus" class="meta"></p>
+  </section>
+
+  <section class="card">
+    <div class="row tab-bar">
+      <button id="tabPrice" class="active-tab" type="button"></button>
+      <button id="tabDiff" type="button"></button>
+      <button id="tabHistory" type="button"></button>
+    </div>
+
+    <div id="priceControls">
+      <div class="row toolbar">
+        <input id="searchQ" class="field-grow" autocomplete="off">
+        <label class="meta chk-only-active">
+          <input type="checkbox" id="onlyActive"> <span id="onlyActiveLabel"></span>
+        </label>
+      </div>
+
+      <div class="control-grid">
+        <label class="control-field">
+          <span id="baseLabel"></span>
+          <select id="baseCurrency"></select>
+        </label>
+        <label class="control-field">
+          <span id="modeLabel"></span>
+          <select id="displayMode">
+            <option value="converted"></option>
+            <option value="original"></option>
+          </select>
+        </label>
+        <label class="control-field">
+          <span id="sortLabel"></span>
+          <select id="sortMode">
+            <option value="cheapest"></option>
+            <option value="priciest"></option>
+            <option value="spread"></option>
+            <option value="unit"></option>
+            <option value="name"></option>
+            <option value="group"></option>
+          </select>
+        </label>
+      </div>
+
+      <div id="groupChips" class="row chip-row"></div>
+
+      <div class="region-head">
+        <span id="regionsLabel"></span>
+        <button type="button" id="regionAll" class="mini-btn"></button>
+        <button type="button" id="regionNone" class="mini-btn"></button>
+        <button type="button" id="regionDefault" class="mini-btn"></button>
+      </div>
+      <div id="regionChips" class="row chip-row"></div>
+
+      <div class="row share-row">
+        <button type="button" id="copyLinkBtn" class="mini-btn"></button>
+      </div>
+    </div>
+
+    <p id="dataMeta" class="meta"></p>
+
+    <div id="panelPrice">
+      <div class="table-wrap" id="priceTableWrap"></div>
+    </div>
+
+    <div id="panelDiff" class="hidden">
+      <div id="diffMeta" class="meta" style="margin-bottom:12px"></div>
+      <div class="diff-grid">
+        <div class="diff-block"><h3 id="diffAddedH"></h3><ul id="diffAdded" class="diff-list"></ul></div>
+        <div class="diff-block"><h3 id="diffRemovedH"></h3><ul id="diffRemoved" class="diff-list"></ul></div>
+        <div class="diff-block"><h3 id="diffChangedH"></h3><ul id="diffChanged" class="diff-list"></ul></div>
+      </div>
+    </div>
+
+    <div id="panelHistory" class="hidden">
+      <div id="historyWrap"></div>
+    </div>
+  </section>
+
+  <p class="disclaimer" id="disclaimer"></p>
+  <p class="site-footer" id="siteFooter"></p>
+</main>
+
+<div id="chartModal" class="chart-modal hidden" aria-hidden="true">
+  <div class="chart-modal-panel">
+    <div class="chart-modal-head">
+      <h2 id="chartTitle"></h2>
+      <select id="chartMode" class="chart-mode-select">
+        <option value="converted"></option>
+        <option value="local"></option>
+      </select>
+      <button type="button" id="chartClose" class="secondary"></button>
+    </div>
+    <div id="chartBody"></div>
+  </div>
+</div>
+
+<script src="../assets/app.js"></script>
+</body>
+</html>

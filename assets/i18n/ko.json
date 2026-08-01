@@ -1,0 +1,134 @@
+{
+  "_lang": "한국어",
+  "_review": "기계 번역 초안입니다. 원어민 검수가 필요합니다.",
+  "title": "Sky 빛의 아이들 — 지역별 상점 가격",
+  "hint": "지역별 가격은 상점에서 설정합니다. 데이터는 30분마다 자동으로 갱신되며, 아래에 비밀번호를 입력하면 즉시 갱신할 수 있습니다.",
+  "disclaimer": "지역별 가격은 상점 운영자가 설정하며 환율, 세금, 지역 전략에 따라 다를 수 있습니다. 이 페이지는 참고용이며 구매나 지역 간 결제 기능을 제공하지 않습니다.",
+  "footer": "비공식 프로젝트이며 thatgamecompany와 관련이 없습니다. 데이터는 공식 상점의 공개 API에서 가져옵니다.",
+  "tabs": {
+    "price": "가격 비교",
+    "diff": "최근 변경",
+    "history": "기록"
+  },
+  "search": "패키지 · 이벤트 이름 검색…",
+  "baseLabel": "기준 통화",
+  "modeLabel": "표시",
+  "sortLabel": "정렬",
+  "modes": {
+    "converted": "환산",
+    "original": "현지 통화"
+  },
+  "sorts": {
+    "cheapest": "최저가 (낮음 → 높음)",
+    "priciest": "최저가 (높음 → 낮음)",
+    "spread": "지역 간 가격차 (큼 → 작음)",
+    "unit": "양초 단가 (낮음 → 높음)",
+    "name": "이름",
+    "group": "분류"
+  },
+  "regionsLabel": "비교할 지역",
+  "all": "전체",
+  "none": "해제",
+  "default": "기본",
+  "copyLink": "링크 복사",
+  "copied": "복사됨",
+  "onlyActive": "기간 한정만",
+  "groupsAll": "전체",
+  "groups": {
+    "candles": "양초",
+    "seasons": "시즌",
+    "events": "이벤트",
+    "event2": "이벤트 2",
+    "evergreen": "상시",
+    "other": "기타"
+  },
+  "head": {
+    "item": "상품",
+    "unit": "단가",
+    "min": "최저",
+    "max": "최고",
+    "spread": "가격차"
+  },
+  "permanent": "상시",
+  "until": "{d}까지",
+  "units": {
+    "d": "일",
+    "h": "시간",
+    "m": "분",
+    "s": "초"
+  },
+  "endsIn": "{t} 남음",
+  "startsIn": "{t} 후 시작",
+  "endedAgo": "{t} 전 종료",
+  "life": {
+    "run": "{n}번째 판매",
+    "back": "지난 종료일 {d}",
+    "gone": "{n}일 전 종료"
+  },
+  "badges": {
+    "web_exclusive": "웹 전용",
+    "free": "무료",
+    "uses": "{n}회 사용 가능",
+    "unavailable": "이 지역에서는 구매할 수 없음"
+  },
+  "switchNote": "Nintendo Switch에서 구매한 양초는 해당 플랫폼에서만 사용할 수 있습니다. 인앱 구매(IAP), 이벤트, 시즌 패스는 모든 플랫폼에서 사용할 수 있습니다.",
+  "switchTag": "Switch 제한",
+  "showing": "{shown} / {all}개 표시 · {regions}개 지역 비교",
+  "updated": "{t} 갱신",
+  "rateNote": "환율 {date} ({src})",
+  "rateMissing": "환율을 가져오지 못해 현지 통화만 표시합니다",
+  "emptyItems": "조건에 맞는 상품이 없습니다",
+  "emptyRegions": "지역을 하나 이상 선택하세요",
+  "fetchError": "{n} 불러오기 실패",
+  "diff": {
+    "title": "마지막 변경 시점의 차이",
+    "added": "추가된 상품",
+    "removed": "내려간 상품",
+    "changed": "가격 변동",
+    "none": "아직 변경 기록이 없습니다",
+    "emptyAdd": "추가 없음",
+    "emptyDel": "내려감 없음",
+    "emptyChg": "가격 변동 없음",
+    "recorded": "{t}에 기록",
+    "unchanged": "마지막 변경 이후 변화 없음",
+    "count": "{n} / 최대 {limit}건"
+  },
+  "history": {
+    "title": "변경 기록",
+    "empty": "아직 기록이 없습니다",
+    "summary": "추가 {a} · 내려감 {r} · 가격 변동 {c}"
+  },
+  "chart": {
+    "local": "현지 통화",
+    "converted": "기준 통화 환산",
+    "noData": "이 상품은 아직 기록이 충분하지 않습니다",
+    "close": "닫기",
+    "hint": "환산에는 오늘 환율이 아니라 각 시점의 환율을 사용합니다. 선이 벌어지면 환율이 실제로 움직였다는 뜻입니다.",
+    "points": "데이터 점",
+    "date": "날짜",
+    "localPrice": "현지가",
+    "basePrice": "환산가"
+  },
+  "fx": {
+    "heading": "가격 조정과 환율 분해",
+    "repriced": "상점 가격 조정",
+    "rate": "환율 변동",
+    "total": "실제 체감",
+    "noReprice": "현지 가격 변동 없음",
+    "period": "{a} → {b}",
+    "insufficient": "데이터 점이 부족합니다"
+  },
+  "gone": " (내려감)",
+  "isNew": " (신규)",
+  "refresh": {
+    "placeholder": "비밀번호를 입력해 즉시 갱신…",
+    "button": "지금 갱신",
+    "triggering": "실행 중…",
+    "success": "실행했습니다. 1분쯤 뒤 페이지를 새로 고치면 최신 데이터가 보입니다.",
+    "wrongPassword": "비밀번호가 틀렸습니다.",
+    "tooSoon": "너무 잦습니다. {s}초 후 다시 시도하세요.",
+    "error": "실행에 실패했습니다. 잠시 후 다시 시도하세요.",
+    "notConfigured": "갱신 서비스가 설정되지 않았습니다."
+  },
+  "demoWarning": "⚠ 현재 데모 데이터를 표시하고 있으며 실제 가격이 아닙니다. scripts/fetch_store.py 를 실행하세요."
+}

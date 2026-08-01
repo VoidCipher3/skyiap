@@ -1,0 +1,134 @@
+{
+  "_lang": "日本語",
+  "_review": "機械翻訳の下書きです。ネイティブによる校正が必要です。",
+  "title": "Sky 星を紡ぐ子どもたち — 地域別ストア価格",
+  "hint": "地域ごとの価格はストア側で設定されています。データは30分ごとに自動更新されます。下のパスワード入力ですぐに更新することもできます。",
+  "disclaimer": "地域ごとの価格はストア運営者が設定しており、為替レート・税金・地域戦略により異なる場合があります。このページは参考用であり、購入や地域をまたぐ決済機能は提供していません。",
+  "footer": "非公式プロジェクトです。thatgamecompany とは関係ありません。データは公式ストアの公開 API から取得しています。",
+  "tabs": {
+    "price": "価格比較",
+    "diff": "最近の変更",
+    "history": "履歴"
+  },
+  "search": "パック・イベント名で検索…",
+  "baseLabel": "基準通貨",
+  "modeLabel": "表示",
+  "sortLabel": "並び替え",
+  "modes": {
+    "converted": "換算後",
+    "original": "現地通貨"
+  },
+  "sorts": {
+    "cheapest": "最安値（安い → 高い）",
+    "priciest": "最安値（高い → 安い）",
+    "spread": "地域間の価格差（大 → 小）",
+    "unit": "キャンドル単価（安い → 高い）",
+    "name": "名前",
+    "group": "カテゴリ"
+  },
+  "regionsLabel": "比較する地域",
+  "all": "すべて",
+  "none": "解除",
+  "default": "既定",
+  "copyLink": "リンクをコピー",
+  "copied": "コピーしました",
+  "onlyActive": "期間限定のみ",
+  "groupsAll": "すべて",
+  "groups": {
+    "candles": "キャンドル",
+    "seasons": "シーズン",
+    "events": "イベント",
+    "event2": "イベント 2",
+    "evergreen": "常設",
+    "other": "その他"
+  },
+  "head": {
+    "item": "アイテム",
+    "unit": "単価",
+    "min": "最安",
+    "max": "最高",
+    "spread": "価格差"
+  },
+  "permanent": "常設",
+  "until": "{d} まで",
+  "units": {
+    "d": "日",
+    "h": "時間",
+    "m": "分",
+    "s": "秒"
+  },
+  "endsIn": "残り {t}",
+  "startsIn": "{t} 後に開始",
+  "endedAgo": "{t} 前に終了",
+  "life": {
+    "run": "{n} 回目の登場",
+    "back": "前回の終了は {d}",
+    "gone": "{n} 日前に終了"
+  },
+  "badges": {
+    "web_exclusive": "ウェブ限定",
+    "free": "無料",
+    "uses": "{n} 回使用可能",
+    "unavailable": "この地域では購入できません"
+  },
+  "switchNote": "Nintendo Switch で購入したキャンドルはそのプラットフォーム内でのみ使用できます。アプリ内購入 (IAP)、イベント、シーズンパスはすべてのプラットフォームで利用できます。",
+  "switchTag": "Switch 制限",
+  "showing": "{shown} / {all} 件を表示 · {regions} 地域を比較",
+  "updated": "{t} に更新",
+  "rateNote": "レート {date}（{src}）",
+  "rateMissing": "為替レートを取得できませんでした。現地通貨のみ表示します",
+  "emptyItems": "条件に合うアイテムがありません",
+  "emptyRegions": "地域を1つ以上選んでください",
+  "fetchError": "{n} の読み込みに失敗しました",
+  "diff": {
+    "title": "前回変更時の差分",
+    "added": "追加されたアイテム",
+    "removed": "削除されたアイテム",
+    "changed": "価格の変更",
+    "none": "変更の記録はまだありません",
+    "emptyAdd": "追加なし",
+    "emptyDel": "削除なし",
+    "emptyChg": "価格変更なし",
+    "recorded": "{t} に記録",
+    "unchanged": "前回の変更以降、変化はありません",
+    "count": "{n} / 上限 {limit} 件"
+  },
+  "history": {
+    "title": "変更履歴",
+    "empty": "履歴はまだありません",
+    "summary": "追加 {a} · 削除 {r} · 価格変更 {c}"
+  },
+  "chart": {
+    "local": "現地通貨",
+    "converted": "基準通貨に換算",
+    "noData": "このアイテムはまだ十分な履歴がありません",
+    "close": "閉じる",
+    "hint": "換算には各時点のレートを使用しています（今日のレートではありません）。線が離れているのは為替が実際に動いたことを意味します。",
+    "points": "データ点",
+    "date": "日付",
+    "localPrice": "現地価格",
+    "basePrice": "換算後"
+  },
+  "fx": {
+    "heading": "価格改定と為替の内訳",
+    "repriced": "ストアの価格改定",
+    "rate": "為替の変動",
+    "total": "実質の変化",
+    "noReprice": "現地価格は変わっていません",
+    "period": "{a} → {b}",
+    "insufficient": "データ点が不足しています"
+  },
+  "gone": "（販売終了）",
+  "isNew": "（新規）",
+  "refresh": {
+    "placeholder": "パスワードを入力してすぐ更新…",
+    "button": "今すぐ更新",
+    "triggering": "実行中…",
+    "success": "実行しました。1分ほどでページを再読み込みすると最新データが表示されます。",
+    "wrongPassword": "パスワードが違います。",
+    "tooSoon": "頻繁すぎます。{s} 秒後にお試しください。",
+    "error": "実行に失敗しました。後でお試しください。",
+    "notConfigured": "更新サービスが未設定です。"
+  },
+  "demoWarning": "⚠ 現在表示されているのはデモデータで、実際の価格ではありません。scripts/fetch_store.py を実行してください。"
+}

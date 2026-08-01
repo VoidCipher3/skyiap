@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+.wrangler/
+tests/
+data/
+test.py
+scripts/
+.env
+readme_old.txt

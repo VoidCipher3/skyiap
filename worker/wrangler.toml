@@ -1,0 +1,23 @@
+name = "skyiap"
+main = "index.js"
+compatibility_date = "2024-11-01"
+
+# 每 30 分鐘自動觸發一次 GitHub Actions。
+# 用 Cloudflare 排程而不是 GitHub 的 schedule：GitHub 的排程常延遲
+[triggers]
+crons = ["*/30 * * * *"]
+
+[vars]
+GITHUB_REPO   = "voidcipher3/skyiap"   # 換成你的 owner/repo
+WORKFLOW_FILE = "fetch.yml"
+GITHUB_REF    = "main"
+
+# 逗號分隔，留空代表不限制來源。部署好之後建議填上實際網域：
+# ALLOWED_ORIGINS = "https://voidcipher3.github.io/skyiap"
+ALLOWED_ORIGINS = ""
+
+# 選用：綁一個 KV 就會啟用「兩分鐘內只能手動刷一次」的頻率限制。
+# 先 `wrangler kv namespace create skyiap`，把 id 填進來後取消註解。
+[[kv_namespaces]]
+binding = "skyiap"
+id = "40c2a9e269e34458a3b8ac7652c308fd"

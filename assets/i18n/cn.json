@@ -1,0 +1,133 @@
+{
+  "_lang": "简体中文",
+  "title": "光遇 商城 各地区定价对照",
+  "hint": "各地区定价由商城后台设定，数据每 30 分钟自动更新，也可以在下方输入密码立即刷新。",
+  "disclaimer": "各地区定价由商城后台设定，可能因汇率、税金、地区策略而有差异；此页仅供参考，不提供购买或跨区下单功能。",
+  "footer": "非官方项目，与 thatgamecompany 无关。数据来自官方商城公开 API。",
+  "tabs": {
+    "price": "价格对照",
+    "diff": "最近变更",
+    "history": "历史记录"
+  },
+  "search": "搜索礼包 / 节庆名称…",
+  "baseLabel": "基准币别",
+  "modeLabel": "显示",
+  "sortLabel": "排序",
+  "modes": {
+    "converted": "换算后",
+    "original": "原币"
+  },
+  "sorts": {
+    "cheapest": "最低价（便宜 → 贵）",
+    "priciest": "最低价（贵 → 便宜）",
+    "spread": "跨区价差（大 → 小）",
+    "unit": "每烛单价（低 → 高）",
+    "name": "名称",
+    "group": "分类"
+  },
+  "regionsLabel": "参与比较的地区",
+  "all": "全选",
+  "none": "全不选",
+  "default": "默认",
+  "copyLink": "复制链接",
+  "copied": "已复制",
+  "onlyActive": "仅限时贩售中",
+  "groupsAll": "全部",
+  "groups": {
+    "candles": "蜡烛",
+    "seasons": "季节",
+    "events": "活动",
+    "event2": "活动 2",
+    "evergreen": "常驻",
+    "other": "其他"
+  },
+  "head": {
+    "item": "商品",
+    "unit": "蜡单价",
+    "min": "最低",
+    "max": "最高",
+    "spread": "价差"
+  },
+  "permanent": "常驻",
+  "until": "贩售至 {d}",
+  "units": {
+    "d": "天",
+    "h": "时",
+    "m": "分",
+    "s": "秒"
+  },
+  "endsIn": "剩 {t}",
+  "startsIn": "{t} 后开始",
+  "endedAgo": "{t} 前结束",
+  "life": {
+    "run": "第 {n} 次上架",
+    "back": "上次下架于 {d}",
+    "gone": "已下架 {n} 天"
+  },
+  "badges": {
+    "web_exclusive": "网页限定",
+    "free": "免费",
+    "uses": "可用 {n} 次",
+    "unavailable": "此区无法购买"
+  },
+  "switchNote": "在任天堂 Switch 设备上购买的蜡烛只能在该平台使用，而程序内购买 (IAPs)、节庆活动和季票则可以在所有平台上使用。",
+  "switchTag": "Switch 限制",
+  "showing": "显示 {shown} / 共 {all} 件 · 比较 {regions} 个地区",
+  "updated": "更新于 {t}",
+  "rateNote": "汇率 {date}（{src}）",
+  "rateMissing": "本次未取得汇率，仅显示原币",
+  "emptyItems": "没有符合条件的商品",
+  "emptyRegions": "请至少选一个地区",
+  "fetchError": "{n} 读取失败",
+  "diff": {
+    "title": "上次有变化时的差异",
+    "added": "新增商品",
+    "removed": "下架商品",
+    "changed": "价格异动",
+    "none": "尚无变化记录",
+    "emptyAdd": "无新增",
+    "emptyDel": "无下架",
+    "emptyChg": "无价格异动",
+    "recorded": "记录于 {t}",
+    "unchanged": "自上次变化后未再变动",
+    "count": "已累积 {n} / 上限 {limit} 条"
+  },
+  "history": {
+    "title": "历史变化记录",
+    "empty": "尚无历史记录",
+    "summary": "新增 {a} · 下架 {r} · 改价 {c}"
+  },
+  "chart": {
+    "local": "本地币",
+    "converted": "折算基准币",
+    "noData": "这件商品还没有足够的历史数据",
+    "close": "关闭",
+    "hint": "折算使用「当时」的汇率，不是今天的汇率，所以线条分开代表汇率真的变动过。",
+    "points": "数据点",
+    "date": "日期",
+    "localPrice": "本地价",
+    "basePrice": "折算价"
+  },
+  "fx": {
+    "heading": "调价与汇率拆解",
+    "repriced": "商城调价",
+    "rate": "汇率变动",
+    "total": "实际感受",
+    "noReprice": "本地售价未变动",
+    "period": "{a} → {b}",
+    "insufficient": "数据点不足，无法拆解"
+  },
+  "gone": "（已下架）",
+  "isNew": "（新上架）",
+  "refresh": {
+    "placeholder": "输入密码立即刷新…",
+    "button": "立即刷新",
+    "triggering": "触发中…",
+    "success": "已触发，约 1 分钟后重新整理页面即可看到最新数据。",
+    "wrongPassword": "密码错误。",
+    "tooSoon": "太频繁了，请 {s} 秒后再试。",
+    "error": "触发失败，请稍后再试。",
+    "notConfigured": "尚未设定刷新服务。"
+  },
+  "demoWarning": "⚠ 当前显示的是模拟数据，价格非真实定价。请执行 scripts/fetch_store.py 获取真实数据。"
+}

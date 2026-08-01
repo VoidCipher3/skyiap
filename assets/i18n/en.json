@@ -41,6 +41,16 @@
     "evergreen": "Evergreen",
     "other": "Other"
   },
+  "regions": {
+  "TW": "Taiwan", "HK": "Hong Kong", "CN": "China", "JP": "Japan", "KR": "South Korea",
+  "SG": "Singapore", "MY": "Malaysia", "TH": "Thailand", "VN": "Vietnam", "PH": "Philippines",
+  "ID": "Indonesia", "IN": "India", "US": "United States", "CA": "Canada", "MX": "Mexico",
+  "GB": "United Kingdom", "DE": "Eurozone", "CH": "Switzerland", "PL": "Poland", "CZ": "Czechia",
+  "SE": "Sweden", "NO": "Norway", "DK": "Denmark", "RU": "Russia", "UA": "Ukraine",
+  "TR": "Türkiye", "SA": "Saudi Arabia", "AE": "UAE", "IL": "Israel", "EG": "Egypt",
+  "ZA": "South Africa", "AU": "Australia", "NZ": "New Zealand", "BR": "Brazil", "CL": "Chile",
+  "CO": "Colombia", "PE": "Peru"
+  },
   "head": {
     "item": "Item",
     "unit": "Lowest Price/Candle",

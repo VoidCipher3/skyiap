@@ -20,49 +20,6 @@ const DEFAULT_BASE = { tw: "TWD", cn: "CNY", en: "USD", ja: "JPY", ko: "KRW" }[L
 const BASE_CHOICES = ["TWD", "USD", "JPY", "KRW", "HKD", "CNY", "EUR", "GBP"];
 const STORE_KEY = "sky-price-prefs-v1";
 
-// 地區顯示名稱。fetch_store.py 新增地區時同步加一筆即可；
-// 沒加也不會壞，只是那一欄會顯示國碼而不是國名。
-const REGION_LABELS = {
-  TW: ["TW", "台灣", "台湾", "Taiwan", "台湾", "대만"],
-  HK: ["🇭🇰", "香港", "香港", "Hong Kong", "香港", "홍콩"],
-  CN: ["🇨🇳", "中國", "中国", "China", "中国", "중국"],
-  JP: ["🇯🇵", "日本", "日本", "Japan", "日本", "일본"],
-  KR: ["🇰🇷", "韓國", "韩国", "South Korea", "韓国", "대한민국"],
-  SG: ["🇸🇬", "新加坡", "新加坡", "Singapore", "シンガポール", "싱가포르"],
-  MY: ["🇲🇾", "馬來西亞", "马来西亚", "Malaysia", "マレーシア", "말레이시아"],
-  TH: ["🇹🇭", "泰國", "泰国", "Thailand", "タイ", "태국"],
-  VN: ["🇻🇳", "越南", "越南", "Vietnam", "ベトナム", "베트남"],
-  PH: ["🇵🇭", "菲律賓", "菲律宾", "Philippines", "フィリピン", "필리핀"],
-  ID: ["🇮🇩", "印尼", "印尼", "Indonesia", "インドネシア", "인도네시아"],
-  IN: ["🇮🇳", "印度", "印度", "India", "インド", "인도"],
-  US: ["🇺🇸", "美國", "美国", "United States", "アメリカ", "미국"],
-  CA: ["🇨🇦", "加拿大", "加拿大", "Canada", "カナダ", "캐나다"],
-  MX: ["🇲🇽", "墨西哥", "墨西哥", "Mexico", "メキシコ", "멕시코"],
-  GB: ["🇬🇧", "英國", "英国", "United Kingdom", "イギリス", "영국"],
-  DE: ["🇩🇪", "歐元區", "欧元区", "Eurozone", "ユーロ圏", "유로존"],
-  CH: ["🇨🇭", "瑞士", "瑞士", "Switzerland", "スイス", "스위스"],
-  PL: ["🇵🇱", "波蘭", "波兰", "Poland", "ポーランド", "폴란드"],
-  CZ: ["🇨🇿", "捷克", "捷克", "Czechia", "チェコ", "체코"],
-  SE: ["🇸🇪", "瑞典", "瑞典", "Sweden", "スウェーデン", "스웨덴"],
-  NO: ["🇳🇴", "挪威", "挪威", "Norway", "ノルウェー", "노르웨이"],
-  DK: ["🇩🇰", "丹麥", "丹麦", "Denmark", "デンマーク", "덴마크"],
-  RU: ["🇷🇺", "俄羅斯", "俄罗斯", "Russia", "ロシア", "러시아"],
-  UA: ["🇺🇦", "烏克蘭", "乌克兰", "Ukraine", "ウクライナ", "우크라이나"],
-  TR: ["🇹🇷", "土耳其", "土耳其", "Türkiye", "トルコ", "튀르키예"],
-  SA: ["🇸🇦", "沙烏地", "沙特", "Saudi Arabia", "サウジアラビア", "사우디"],
-  AE: ["🇦🇪", "阿聯", "阿联酋", "UAE", "UAE", "아랍에미리트"],
-  IL: ["🇮🇱", "以色列", "以色列", "Israel", "イスラエル", "이스라엘"],
-  EG: ["🇪🇬", "埃及", "埃及", "Egypt", "エジプト", "이집트"],
-  ZA: ["🇿🇦", "南非", "南非", "South Africa", "南アフリカ", "남아공"],
-  AU: ["🇦🇺", "澳洲", "澳洲", "Australia", "オーストラリア", "호주"],
-  NZ: ["🇳🇿", "紐西蘭", "新西兰", "New Zealand", "ニュージーランド", "뉴질랜드"],
-  BR: ["🇧🇷", "巴西", "巴西", "Brazil", "ブラジル", "브라질"],
-  CL: ["🇨🇱", "智利", "智利", "Chile", "チリ", "칠레"],
-  CO: ["🇨🇴", "哥倫比亞", "哥伦比亚", "Colombia", "コロンビア", "콜롬비아"],
-  PE: ["🇵🇪", "秘魯", "秘鲁", "Peru", "ペルー", "페루"],
-};
-const LABEL_IDX = { tw: 1, cn: 2, en: 3, ja: 4, ko: 5 }[LANG] || 3;
-
 // ---------------------------------------------------------------- 狀態
 
 let T = {};                        // i18n
@@ -95,13 +52,11 @@ const nameOf = (o) => {
   return n[LANG] || n.en || n.tw || o?.sku || "";
 };
 const regionName = (code) => {
-  const r = REGION_LABELS[code];
-  return r ? `${r[0]} ${r[LABEL_IDX]}` : code;
+  const key = `regions.${code}`;
+  const name = t(key);
+  return name === key ? code : `${code} ${name}`;
 };
-const regionShort = (code) => {
-  const r = REGION_LABELS[code];
-  return r ? `${r[0]} ${code}` : code;
-};
+const regionShort = (code) => regionName(code);
 
 // ---------------------------------------------------------------- 偏好 / 網址
 

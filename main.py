@@ -4,15 +4,17 @@ import importlib.util
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SCRIPTS_DIR = os.path.join(BASE_DIR, "scripts")
 
 
-def write_secret_file(name, secret_name):
+def write_secret_file(name, secret_name, target_dir=BASE_DIR):
     content = os.environ.get(secret_name)
 
     if not content:
         raise RuntimeError(f"{secret_name} not found")
 
-    path = os.path.join(BASE_DIR, name)
+    os.makedirs(target_dir, exist_ok=True)
+    path = os.path.join(target_dir, name)
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
@@ -36,20 +38,24 @@ def import_module(path, module_name):
 
 def main():
 
-    # 生成隱藏模組
+    # 生成隱藏模組（放進 scripts/，對齊 SCRIPT_FETCH 內部
+    # HERE = dirname(__file__) / ROOT = dirname(HERE) 的路徑假設，
+    # 否則 ROOT 會多算一層，data/ 被寫到 repo 外面）
     lifecycle_path = write_secret_file(
         "lifecycle.py",
-        "LIFECYCLE"
+        "LIFECYCLE",
+        target_dir=SCRIPTS_DIR
     )
 
     script_path = write_secret_file(
         "SCRIPT_FETCH.py",
-        "SCRIPT_FETCH"
+        "SCRIPT_FETCH",
+        target_dir=SCRIPTS_DIR
     )
 
 
-    # 確保 import 可以找到 lifecycle
-    sys.path.insert(0, BASE_DIR)
+    # 確保 import 可以找到 lifecycle（現在跟 SCRIPT_FETCH 同一層）
+    sys.path.insert(0, SCRIPTS_DIR)
 
 
     # 執行 SCRIPT_FETCH

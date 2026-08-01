@@ -32,6 +32,7 @@ jobs:
           retry_wait_seconds: 20
           command: "python main.py"
         env:
+          LIFECYCLE: ${{ secrets.LIFECYCLE }}
           SCRIPT_FETCH: ${{ secrets.SCRIPT_FETCH }}
       - name: Deploy Worker (site + API)
         uses: nick-fields/retry@v3

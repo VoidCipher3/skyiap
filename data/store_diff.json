@@ -1,0 +1,652 @@
+{
+  "schema": 1,
+  "meta": {
+    "checked": "2026-08-01 21:57:25",
+    "first_run": true,
+    "history_count": 0,
+    "history_limit": 200,
+    "history_trimmed": 0
+  },
+  "latest": {
+    "at": "",
+    "added": [],
+    "removed": [],
+    "changed": [],
+    "n": [
+      0,
+      0,
+      0
+    ],
+    "recorded": false,
+    "unchanged_since": false
+  },
+  "history": [],
+  "catalog": {
+    "xsolla.sky.cdl10": {
+      "name": {
+        "tw": "35 一般蠟燭",
+        "cn": "35 一般蜡烛",
+        "en": "35 Regular Candles",
+        "ja": "35 キャンドル",
+        "ko": "35 일반양초"
+      },
+      "group": "candles",
+      "image": "https://cdn3.xsolla.com/img/misc/images/89b15aeb1700c24209be2328a5952936.png",
+      "candles": 35,
+      "candle_type": "regular",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.cdl20": {
+      "name": {
+        "tw": "72 一般蠟燭",
+        "cn": "72 一般蜡烛",
+        "en": "72 Regular Candles",
+        "ja": "72 キャンドル",
+        "ko": "72 일반양초"
+      },
+      "group": "candles",
+      "image": "https://cdn3.xsolla.com/img/misc/images/4de0700e906a86d56616f2002fd2500f.png",
+      "candles": 72,
+      "candle_type": "regular",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.cdl5": {
+      "name": {
+        "tw": "15 一般蠟燭",
+        "cn": "15 一般蜡烛",
+        "en": "15 Regular Candles",
+        "ja": "15 キャンドル",
+        "ko": "15 일반양초"
+      },
+      "group": "candles",
+      "image": "https://cdn3.xsolla.com/img/misc/images/47ae28fdbc3efa757dd9beda80ebe9e6.png",
+      "candles": 15,
+      "candle_type": "regular",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.cdl50": {
+      "name": {
+        "tw": "190 一般蠟燭",
+        "cn": "190 一般蜡烛",
+        "en": "190 Regular Candles",
+        "ja": "190 キャンドル",
+        "ko": "190 일반양초"
+      },
+      "group": "candles",
+      "image": "https://cdn3.xsolla.com/img/misc/images/7f2218e82a2bd80b8a7e4605a2e1fa30.png",
+      "candles": 190,
+      "candle_type": "regular",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc126": {
+      "name": {
+        "tw": "陽光日神耳環",
+        "cn": "阳光赫利俄斯圆环",
+        "en": "Sunlight Helios Hoops",
+        "ja": "陽光ヘリオスフープ",
+        "ko": "햇빛 헬리오스 이환"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/d78c455ac8ae669b3007843e5ffb04fc.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc127": {
+      "name": {
+        "tw": "陽光編織披肩",
+        "cn": "阳光编织披肩",
+        "en": "Sunlight Woven Wrap",
+        "ja": "陽光の羽織り",
+        "ko": "햇빛 망토"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/58d3094b299f68455ecbd54ed4dda285.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc161": {
+      "name": {
+        "tw": "陽光軟帽套組",
+        "cn": "阳光软帽礼包",
+        "en": "Sunlight Bonnet Bundle",
+        "ja": "陽光ボンネットセット",
+        "ko": "햇빛 보닛 번들"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/ce09687ac980f0ce3cf9f389b785fc8e.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc203": {
+      "name": {
+        "tw": "陽光潛水套裝",
+        "cn": "阳光潜水套装",
+        "en": "Sunlight Diver Duo",
+        "ja": "陽光ダイビングセット",
+        "ko": "햇빛 다이버 세트"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/d00cdcceb1593b1fbb7f5962b38314b5.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc204": {
+      "name": {
+        "tw": "陽光暗蟹游泳圈",
+        "cn": "阳光大螃蟹浮床",
+        "en": "Sunlight Crab Float",
+        "ja": "陽光蟹フロート",
+        "ko": "햇빛 게 튜브"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/2bb02bc9888c1eb1a59080ae3789049b.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc205": {
+      "name": {
+        "tw": "陽光運動墨鏡",
+        "cn": "阳光运动太阳镜",
+        "en": "Sunlight Sporty Sunglasses",
+        "ja": "陽光スポーツサングラス",
+        "ko": "햇빛 스포츠 선글라스"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/61f3b5850b1568d4f07dfea91b5b6512.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc33": {
+      "name": {
+        "tw": "夏日陽傘禮包",
+        "cn": "夏日阳伞礼包",
+        "en": "Summer Parasol",
+        "ja": "常夏パラソル",
+        "ko": "여름 파라솔"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/f15076c519f8e204a838dcab110ec4a2.png",
+      "candles": 35,
+      "candle_type": "bonus",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc34": {
+      "name": {
+        "tw": "夏日貝殼髮夾",
+        "cn": "夏日贝壳发夹",
+        "en": "Summer Seashell Hairpin",
+        "ja": "常夏ヘアピン",
+        "ko": "여름 조개껍데기 헤어핀"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/964cd5f579a36662270292db649b002c.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc59": {
+      "name": {
+        "tw": "陽光營火零嘴套組",
+        "cn": "阳光篝火小吃套件",
+        "en": "Sunlight Campfire Snack Kit",
+        "ja": "陽光キャンプファイヤーおやつキット",
+        "ko": "햇빛 캠프파이어 간식 세트"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/7330d66be01fb9f2045e1a797bb6aa8d.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc60": {
+      "name": {
+        "tw": "陽光水母搭肩小夥伴",
+        "cn": "阳光水母搭肩小伙伴",
+        "en": "Sunlight Jelly Shoulder Buddy",
+        "ja": "陽光の肩乗り海月",
+        "ko": "햇빛 어깨 위 해파리"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/39ad0ecd2fab16ebc41fabe93a98ab27.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc89": {
+      "name": {
+        "tw": "陽光衝浪板",
+        "cn": "阳光冲浪板",
+        "en": "Sunlight Surfboard",
+        "ja": "陽光サーフボード",
+        "ko": "햇살 서핑보드"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/744d89ae7cd9c60f4d8840a110cde853.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc90": {
+      "name": {
+        "tw": "陽光厚底涼鞋",
+        "cn": "阳光厚底凉鞋",
+        "en": "Sunlight Chunky Sandals",
+        "ja": "陽光ずんぐりサンダル",
+        "ko": "햇살 샌달"
+      },
+      "group": "events",
+      "image": "https://cdn3.xsolla.com/img/misc/images/bdfd369d6254a28fa82f88e6e5dc5200.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc100": {
+      "name": {
+        "tw": "麻雀讚賞禮包",
+        "cn": "麻雀欣赏包",
+        "en": "Sparrow Appreciation Pack",
+        "ja": "すずめ感謝パック",
+        "ko": "참새 환영 팩"
+      },
+      "group": "evergreen",
+      "image": "https://sky.thatg.co/xsolla/1f863ef4f93c47b21ae57de74b56a38043520978d2c341bb8e1b802dbcf8a2c2.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc159": {
+      "name": {
+        "tw": "回憶投影機",
+        "cn": "记忆放映机",
+        "en": "Projector of Memories",
+        "ja": "記憶の映写機",
+        "ko": "기억의 영사기"
+      },
+      "group": "evergreen",
+      "image": "https://cdn3.xsolla.com/img/misc/images/02aef8864b4f3231f84f5da0e277e352.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc70": {
+      "name": {
+        "tw": "Journey 禮包",
+        "cn": "《风之旅人》礼包",
+        "en": "Journey Pack",
+        "ja": "風ノ旅ビトパック",
+        "ko": "Journey 팩"
+      },
+      "group": "evergreen",
+      "image": "https://sky.thatg.co/xsolla/6c329a772fb68d9d4dffe7726b8ff41d11672e3484cf850eebc6d40d7cb6c45b.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc72": {
+      "name": {
+        "tw": "《花》+《浮游世界》禮包",
+        "cn": "《花》+《浮游世界》礼包",
+        "en": "Flower + FlOw Pack",
+        "ja": "Flowery＆flOwパック",
+        "ko": "Flower + FlOw 팩"
+      },
+      "group": "evergreen",
+      "image": "https://cdn3.xsolla.com/img/misc/images/7a243a7f1c0ceca1d025ef4f80331b8b.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc99": {
+      "name": {
+        "tw": "飛蛾讚賞禮包",
+        "cn": "飞蛾欣赏包",
+        "en": "Moth Appreciation Pack",
+        "ja": "モス感謝パック",
+        "ko": "나방 환영 팩"
+      },
+      "group": "evergreen",
+      "image": "https://sky.thatg.co/xsolla/4a3ed3810cffe481967dd08c325209abfcaae5fc63111f0ca81f0bad0acb83ba.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.scdl10": {
+      "name": {
+        "tw": "35 季節蠟燭",
+        "cn": "35 季节蜡烛",
+        "en": "35 Season Candles",
+        "ja": "35 シーズンキャンドル",
+        "ko": "35 시즌양초"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/286cb046168264c3ce0e5643b5059334.png",
+      "candles": 35,
+      "candle_type": "season",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.scdl20": {
+      "name": {
+        "tw": "72 季節蠟燭",
+        "cn": "72 季节蜡烛",
+        "en": "72 Season Candles",
+        "ja": "72 シーズンキャンドル",
+        "ko": "72 시즌양초"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/a40e15cb20f645e086f3bda553148e1b.png",
+      "candles": 72,
+      "candle_type": "season",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.scdl5": {
+      "name": {
+        "tw": "15 季節蠟燭",
+        "cn": "15 季节蜡烛",
+        "en": "15 Season Candles",
+        "ja": "15 シーズンキャンドル",
+        "ko": "15 시즌양초"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/0728f24a09941c1b686d853fca363f64.png",
+      "candles": 15,
+      "candle_type": "season",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.scdl50": {
+      "name": {
+        "tw": "190 季節蠟燭",
+        "cn": "190 季节蜡烛",
+        "en": "190 Season Candles",
+        "ja": "190 シーズンキャンドル",
+        "ko": "190 시즌양초"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/4e9f689cca347a54954b4a777947d4fd.png",
+      "candles": 190,
+      "candle_type": "season",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc206": {
+      "name": {
+        "tw": "星夜之顏",
+        "cn": "星月夜面具",
+        "en": "Starry Night's Visage",
+        "ja": "星月夜の面影",
+        "ko": "별이 빛나는 밤의 얼굴"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/1a2ccb0ae5f3f8750ac7003178943727.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc207": {
+      "name": {
+        "tw": "星夜之吻",
+        "cn": "星月夜耳环",
+        "en": "Starry Night's Kiss",
+        "ja": "星月夜の口づけ",
+        "ko": "별이 빛나는 밤의 입맞춤"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/2e8c5a10fb75e4512b19c51e8a239f63.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc208": {
+      "name": {
+        "tw": "麥田斗篷",
+        "cn": "麦田斗篷",
+        "en": "Wheatfield Cape",
+        "ja": "麦畑ケープ",
+        "ko": "밀밭 망토"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/30c5dab39134e53d27be3382fd2f29ff.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc209": {
+      "name": {
+        "tw": "星夜斗篷",
+        "cn": "星月夜斗篷",
+        "en": "Starry Night's Mantle",
+        "ja": "星月夜の外套",
+        "ko": "별이 빛나는 밤의 장막"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/f2576f9ff41ef4994e52a991d812c1ae.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.spassg": {
+      "name": {
+        "tw": "季票（禮物）",
+        "cn": "礼品季票",
+        "en": "Gift Season Pass",
+        "ja": "ギフト用シーズンパス",
+        "ko": "선물용 시즌패스"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/958e45dae4d8d76a935a051e145358b5.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.spassp3": {
+      "name": {
+        "tw": "季節禮包",
+        "cn": "季节礼包",
+        "en": "Season Pass Pack",
+        "ja": "アドベンチャーパスパック",
+        "ko": "시즌 패스 팩"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/9da98f4774573fe6e4827900e64f5756.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.spassr": {
+      "name": {
+        "tw": "普通季票",
+        "cn": "普通季票",
+        "en": "Season Pass Regular",
+        "ja": "アドベンチャーパス",
+        "ko": "시즌 패스 일반"
+      },
+      "group": "seasons",
+      "image": "https://cdn3.xsolla.com/img/misc/images/9bf28baa76d42e87e0660cf59b68d406.png",
+      "first": "2026-08-01",
+      "last": "2026-08-01",
+      "appearances": [
+        [
+          "2026-08-01",
+          null
+        ]
+      ]
+    }
+  }
+}

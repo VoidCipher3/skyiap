@@ -1,63 +1,45 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-08-26 14:31:03",
+    "checked": "2026-08-26 15:00:59",
     "first_run": false,
-    "history_count": 1,
+    "history_count": 2,
     "history_limit": 200,
     "history_trimmed": 0
   },
   "latest": {
-    "at": "2026-08-21 15:01:11",
-    "added": [],
-    "removed": [
+    "at": "2026-08-26 15:00:59",
+    "added": [
       {
-        "sku": "xsolla.sky.snc126"
-      },
-      {
-        "sku": "xsolla.sky.snc127"
-      },
-      {
-        "sku": "xsolla.sky.snc161"
-      },
-      {
-        "sku": "xsolla.sky.snc203"
-      },
-      {
-        "sku": "xsolla.sky.snc204"
-      },
-      {
-        "sku": "xsolla.sky.snc205"
-      },
-      {
-        "sku": "xsolla.sky.snc33"
-      },
-      {
-        "sku": "xsolla.sky.snc34"
-      },
-      {
-        "sku": "xsolla.sky.snc59"
-      },
-      {
-        "sku": "xsolla.sky.snc60"
-      },
-      {
-        "sku": "xsolla.sky.snc89"
-      },
-      {
-        "sku": "xsolla.sky.snc90"
+        "sku": "xsolla.sky.snc210"
       }
     ],
+    "removed": [],
     "changed": [],
     "n": [
+      1,
       0,
-      12,
       0
     ],
     "recorded": true,
-    "unchanged_since": true
+    "unchanged_since": false
   },
   "history": [
+    {
+      "at": "2026-08-26 15:00:59",
+      "added": [
+        {
+          "sku": "xsolla.sky.snc210"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "n": [
+        1,
+        0,
+        0
+      ]
+    },
     {
       "at": "2026-08-21 15:01:11",
       "added": [],
@@ -730,6 +712,25 @@
       "appearances": [
         [
           "2026-08-01",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc210": {
+      "name": {
+        "tw": "星夜之傘",
+        "cn": "星月夜之伞",
+        "en": "Starry Night's Canopy",
+        "ja": "星月夜の傘",
+        "ko": "별이 빛나는 밤의 우산"
+      },
+      "group": "seasons",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/9ba55bb4101b8e1c6abcd1a5a91423fb.gif",
+      "first": "2026-08-26",
+      "last": "2026-08-26",
+      "appearances": [
+        [
+          "2026-08-26",
           null
         ]
       ]

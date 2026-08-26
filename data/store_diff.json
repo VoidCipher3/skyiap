@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-08-26 23:01:02",
+    "checked": "2026-08-27 00:01:02",
     "first_run": false,
     "history_count": 2,
     "history_limit": 200,
@@ -103,7 +103,7 @@
       "candles": 35,
       "candle_type": "regular",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -124,7 +124,7 @@
       "candles": 72,
       "candle_type": "regular",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -145,7 +145,7 @@
       "candles": 15,
       "candle_type": "regular",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -166,7 +166,7 @@
       "candles": 190,
       "candle_type": "regular",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -415,7 +415,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/1f863ef4f93c47b21ae57de74b56a38043520978d2c341bb8e1b802dbcf8a2c2.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -434,7 +434,7 @@
       "group": "evergreen",
       "image": "https://cdn3.xsolla.com/img/misc/images/02aef8864b4f3231f84f5da0e277e352.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -453,7 +453,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/6c329a772fb68d9d4dffe7726b8ff41d11672e3484cf850eebc6d40d7cb6c45b.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -472,7 +472,7 @@
       "group": "evergreen",
       "image": "https://cdn3.xsolla.com/img/misc/images/7a243a7f1c0ceca1d025ef4f80331b8b.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -491,7 +491,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/4a3ed3810cffe481967dd08c325209abfcaae5fc63111f0ca81f0bad0acb83ba.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -512,7 +512,7 @@
       "candles": 35,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -533,7 +533,7 @@
       "candles": 72,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -554,7 +554,7 @@
       "candles": 15,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -575,7 +575,7 @@
       "candles": 190,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -594,7 +594,7 @@
       "group": "seasons",
       "image": "https://cdn3.xsolla.com/img/misc/images/1a2ccb0ae5f3f8750ac7003178943727.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -613,7 +613,7 @@
       "group": "seasons",
       "image": "https://cdn3.xsolla.com/img/misc/images/2e8c5a10fb75e4512b19c51e8a239f63.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -632,7 +632,7 @@
       "group": "seasons",
       "image": "https://cdn3.xsolla.com/img/misc/images/30c5dab39134e53d27be3382fd2f29ff.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -651,7 +651,7 @@
       "group": "seasons",
       "image": "https://cdn3.xsolla.com/img/misc/images/f2576f9ff41ef4994e52a991d812c1ae.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -670,7 +670,7 @@
       "group": "seasons",
       "image": "https://cdn3.xsolla.com/img/misc/images/958e45dae4d8d76a935a051e145358b5.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -689,7 +689,7 @@
       "group": "seasons",
       "image": "https://cdn3.xsolla.com/img/misc/images/9da98f4774573fe6e4827900e64f5756.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -708,7 +708,7 @@
       "group": "seasons",
       "image": "https://cdn3.xsolla.com/img/misc/images/9bf28baa76d42e87e0660cf59b68d406.png",
       "first": "2026-08-01",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-01",
@@ -727,7 +727,7 @@
       "group": "seasons",
       "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/9ba55bb4101b8e1c6abcd1a5a91423fb.gif",
       "first": "2026-08-26",
-      "last": "2026-08-26",
+      "last": "2026-08-27",
       "appearances": [
         [
           "2026-08-26",

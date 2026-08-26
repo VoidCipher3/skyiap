@@ -2,6 +2,18 @@
   "schema": 1,
   "lang": "ko",
   "desc": {
+    "xsolla.sky.spassr": "더 많은 보너스를 제공하는 시즌 패스\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
+    "xsolla.sky.spassg": "친구를 위해 선물용 시즌 패스 을(를) 구입해 보세요\n(구매자 본인 사용 불가)\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
+    "xsolla.sky.spassp3": "당신과 친구 2명에게 보너스를 주는 어드벤처 패스 3인 팩\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
+    "xsolla.sky.snc210": "특별한 이벤트 아이템",
+    "xsolla.sky.snc209": "특별한 이벤트 아이템",
+    "xsolla.sky.snc208": "특별한 이벤트 아이템",
+    "xsolla.sky.snc207": "특별한 이벤트 아이템",
+    "xsolla.sky.snc206": "특별한 이벤트 아이템",
+    "xsolla.sky.scdl5": "시즌 콘텐츠를 구입할 때 사용하는 15시즌양초.\n시즌이 종료된 후 사용하지 않은 시즌양초는 일반양초로 전환됩니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
+    "xsolla.sky.scdl10": "시즌 콘텐츠를 구입할 때 사용하는 35시즌양초.\n시즌이 종료된 후 사용하지 않은 시즌양초는 일반양초로 전환됩니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
+    "xsolla.sky.scdl20": "시즌 콘텐츠를 구입할 때 사용하는 72시즌양초.\n시즌이 종료된 후 사용하지 않은 시즌양초는 일반양초로 전환됩니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
+    "xsolla.sky.scdl50": "시즌 콘텐츠를 구입할 때 사용하는 190시즌양초.\n시즌이 종료된 후 사용하지 않은 시즌양초는 일반양초로 전환됩니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
     "xsolla.sky.cdl5": "친구들에게 나눠줄 수 있는 다수의 양초.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
     "xsolla.sky.cdl10": "친구들에게 나눠줄 수 있는 다수의 양초.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
     "xsolla.sky.cdl20": "친구들에게 나눠줄 수 있는 다수의 양초.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
@@ -10,18 +22,6 @@
     "xsolla.sky.snc100": "특별한 이벤트 아이템",
     "xsolla.sky.snc99": "특별한 이벤트 아이템",
     "xsolla.sky.snc70": "사막의 여행자가 스팀에서 thatgamecompany의 출시를 축하하기 위해 하늘로 오는 중입니다! 패키지는 이제 모든 플랫폼에서 사용할 수 있으며 여행자의 망토, 후드 및 착용시 독특한 Journey™-영감을 받은 목소리를 부여하는 마스크가 포함되어 있습니다. (©2024 Sony Interactive Entertainment LLC. Journey는 Sony Interactive Entertainment LLC의 등록 상표 또는 상표입니다.)",
-    "xsolla.sky.snc159": "어둠에 휩싸인 세상에서 혼자가 된 아이가 겪는 감동적인 여정을 공유공간에서 다시 체험하세요.일부 기기에서는 영상이 재생되지 않습니다.",
-    "xsolla.sky.snc210": "특별한 이벤트 아이템",
-    "xsolla.sky.spassr": "더 많은 보너스를 제공하는 시즌 패스\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
-    "xsolla.sky.spassg": "친구를 위해 선물용 시즌 패스 을(를) 구입해 보세요\n(구매자 본인 사용 불가)\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
-    "xsolla.sky.spassp3": "당신과 친구 2명에게 보너스를 주는 어드벤처 패스 3인 팩\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
-    "xsolla.sky.snc209": "특별한 이벤트 아이템",
-    "xsolla.sky.snc208": "특별한 이벤트 아이템",
-    "xsolla.sky.snc207": "특별한 이벤트 아이템",
-    "xsolla.sky.snc206": "특별한 이벤트 아이템",
-    "xsolla.sky.scdl5": "시즌 콘텐츠를 구입할 때 사용하는 15시즌양초.\n시즌이 종료된 후 사용하지 않은 시즌양초는 일반양초로 전환됩니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
-    "xsolla.sky.scdl10": "시즌 콘텐츠를 구입할 때 사용하는 35시즌양초.\n시즌이 종료된 후 사용하지 않은 시즌양초는 일반양초로 전환됩니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
-    "xsolla.sky.scdl20": "시즌 콘텐츠를 구입할 때 사용하는 72시즌양초.\n시즌이 종료된 후 사용하지 않은 시즌양초는 일반양초로 전환됩니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.",
-    "xsolla.sky.scdl50": "시즌 콘텐츠를 구입할 때 사용하는 190시즌양초.\n시즌이 종료된 후 사용하지 않은 시즌양초는 일반양초로 전환됩니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다.\n\nNintendo Switch 기기에서 구입한 양초는 Nintendo Switch 플랫폼에서만 단독으로 사용 가능하고, 반면 앱 내 구입 아이템, 이벤트, 시즌패스는 모든 플랫폼에서 사용할 수 있습니다."
+    "xsolla.sky.snc159": "어둠에 휩싸인 세상에서 혼자가 된 아이가 겪는 감동적인 여정을 공유공간에서 다시 체험하세요.일부 기기에서는 영상이 재생되지 않습니다."
   }
 }

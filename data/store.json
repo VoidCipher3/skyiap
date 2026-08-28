@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "meta": {
-    "fetched": "2026-08-28 14:31:20",
+    "fetched": "2026-08-28 15:00:59",
     "project": "207830",
     "groups": [
       "events",
@@ -558,6 +558,59 @@
       "candles": 190,
       "candle_type": "regular",
       "switch_note": true
+    },
+    {
+      "sku": "xsolla.sky.snc211",
+      "name": {
+        "tw": "羽睫面具",
+        "cn": "羽睫面具",
+        "en": "Feathery Lash Mask",
+        "ja": "羽まつげのマスク",
+        "ko": "깃털 속눈썹 가면"
+      },
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/b525a24c84f1d54c7ddd46db7f1b6264.png",
+      "group": "events",
+      "prices": {
+        "TW": 60.0,
+        "HK": 18.0,
+        "CN": 15.0,
+        "JP": 260.0,
+        "KR": 3300.0,
+        "SG": 2.98,
+        "MY": 9.9,
+        "TH": 79.0,
+        "VN": 59000.0,
+        "PH": 129.0,
+        "ID": 29000.0,
+        "IN": 199.0,
+        "US": 1.99,
+        "CA": 2.99,
+        "MX": 39.0,
+        "GB": 1.99,
+        "DE": 1.99,
+        "CH": 2.0,
+        "PL": 9.99,
+        "CZ": 49.0,
+        "SE": 29.0,
+        "NO": 29.0,
+        "DK": 19.0,
+        "RU": 199.0,
+        "UA": 105.0,
+        "TR": 99.99,
+        "SA": 9.99,
+        "AE": 7.99,
+        "IL": 7.9,
+        "EG": 99.99,
+        "ZA": 39.99,
+        "AU": 2.99,
+        "NZ": 3.99,
+        "BR": 12.9,
+        "CL": 1990.0,
+        "CO": 9900.0,
+        "PE": 9.9
+      },
+      "from": "2026-08-28T00:00:00-07:00",
+      "until": "2026-09-11T00:00:00-07:00"
     },
     {
       "sku": "xsolla.sky.snc100",

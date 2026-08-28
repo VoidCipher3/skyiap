@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-08-28 14:31:20",
+    "checked": "2026-08-28 15:00:59",
     "first_run": false,
-    "history_count": 2,
+    "history_count": 3,
     "history_limit": 200,
     "history_trimmed": 0
   },
   "latest": {
-    "at": "2026-08-26 15:00:59",
+    "at": "2026-08-28 15:00:59",
     "added": [
       {
-        "sku": "xsolla.sky.snc210"
+        "sku": "xsolla.sky.snc211"
       }
     ],
     "removed": [],
@@ -22,9 +22,24 @@
       0
     ],
     "recorded": true,
-    "unchanged_since": true
+    "unchanged_since": false
   },
   "history": [
+    {
+      "at": "2026-08-28 15:00:59",
+      "added": [
+        {
+          "sku": "xsolla.sky.snc211"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "n": [
+        1,
+        0,
+        0
+      ]
+    },
     {
       "at": "2026-08-26 15:00:59",
       "added": [
@@ -731,6 +746,25 @@
       "appearances": [
         [
           "2026-08-26",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc211": {
+      "name": {
+        "tw": "羽睫面具",
+        "cn": "羽睫面具",
+        "en": "Feathery Lash Mask",
+        "ja": "羽まつげのマスク",
+        "ko": "깃털 속눈썹 가면"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/b525a24c84f1d54c7ddd46db7f1b6264.png",
+      "first": "2026-08-28",
+      "last": "2026-08-28",
+      "appearances": [
+        [
+          "2026-08-28",
           null
         ]
       ]

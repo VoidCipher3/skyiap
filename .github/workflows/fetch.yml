@@ -53,7 +53,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "沒有變化，不 commit"
           else
-            git commit -m "chore: update store prices ($(TZ='Asia/Taipei'date -u '+%Y-%m-%d %H:%M'))"
+            git commit -m "chore: update store prices ($(TZ='Asia/Taipei' date -u '+%Y-%m-%d %H:%M'))"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
             git push
           fi

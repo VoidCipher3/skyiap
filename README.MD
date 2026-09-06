@@ -6,6 +6,7 @@
 **非官方專案，與 thatgamecompany 無關。資料來自官方商城的 API。**
 此站僅供查詢比較，不提供購買或跨區下單功能。
 
+[連結](https://voidcipher3.github.io/skyiap)
 ---
 
 ## 結構

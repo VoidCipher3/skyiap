@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "meta": {
-    "fetched": "2026-09-11 15:30:38",
+    "fetched": "2026-09-11 16:00:29",
     "project": "207830",
     "groups": [
       "events",
@@ -1372,7 +1372,7 @@
         "tw": "季節禮包",
         "cn": "季节礼包",
         "en": "Season Pass Pack",
-        "ja": "アドベンチャーパスパック",
+        "ja": "シーズンパスパック",
         "ko": "시즌 패스 팩"
       },
       "image": "https://cdn3.xsolla.com/img/misc/images/9da98f4774573fe6e4827900e64f5756.png",
@@ -1426,7 +1426,7 @@
         "tw": "普通季票",
         "cn": "普通季票",
         "en": "Season Pass Regular",
-        "ja": "アドベンチャーパス",
+        "ja": "シーズンパス",
         "ko": "시즌 패스 일반"
       },
       "image": "https://cdn3.xsolla.com/img/misc/images/9bf28baa76d42e87e0660cf59b68d406.png",

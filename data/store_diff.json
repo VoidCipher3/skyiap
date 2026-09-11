@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-09-11 15:30:38",
+    "checked": "2026-09-11 16:00:29",
     "first_run": false,
     "history_count": 5,
     "history_limit": 200,
@@ -925,7 +925,7 @@
         "tw": "季節禮包",
         "cn": "季节礼包",
         "en": "Season Pass Pack",
-        "ja": "アドベンチャーパスパック",
+        "ja": "シーズンパスパック",
         "ko": "시즌 패스 팩"
       },
       "group": "seasons",
@@ -944,7 +944,7 @@
         "tw": "普通季票",
         "cn": "普通季票",
         "en": "Season Pass Regular",
-        "ja": "アドベンチャーパス",
+        "ja": "シーズンパス",
         "ko": "시즌 패스 일반"
       },
       "group": "seasons",

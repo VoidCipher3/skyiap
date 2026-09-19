@@ -1,30 +1,105 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-09-19 14:30:15",
+    "checked": "2026-09-19 15:00:19",
     "first_run": false,
-    "history_count": 5,
+    "history_count": 6,
     "history_limit": 200,
     "history_trimmed": 0
   },
   "latest": {
-    "at": "2026-09-11 15:00:37",
-    "added": [],
-    "removed": [
+    "at": "2026-09-19 15:00:19",
+    "added": [
       {
-        "sku": "xsolla.sky.snc211"
+        "sku": "xsolla.sky.snc107"
+      },
+      {
+        "sku": "xsolla.sky.snc108"
+      },
+      {
+        "sku": "xsolla.sky.snc123"
+      },
+      {
+        "sku": "xsolla.sky.snc124"
+      },
+      {
+        "sku": "xsolla.sky.snc13"
+      },
+      {
+        "sku": "xsolla.sky.snc162"
+      },
+      {
+        "sku": "xsolla.sky.snc212"
+      },
+      {
+        "sku": "xsolla.sky.snc213"
+      },
+      {
+        "sku": "xsolla.sky.snc214"
+      },
+      {
+        "sku": "xsolla.sky.snc35"
+      },
+      {
+        "sku": "xsolla.sky.snc95"
       }
     ],
+    "removed": [],
     "changed": [],
     "n": [
+      11,
       0,
-      1,
       0
     ],
     "recorded": true,
-    "unchanged_since": true
+    "unchanged_since": false
   },
   "history": [
+    {
+      "at": "2026-09-19 15:00:19",
+      "added": [
+        {
+          "sku": "xsolla.sky.snc107"
+        },
+        {
+          "sku": "xsolla.sky.snc108"
+        },
+        {
+          "sku": "xsolla.sky.snc123"
+        },
+        {
+          "sku": "xsolla.sky.snc124"
+        },
+        {
+          "sku": "xsolla.sky.snc13"
+        },
+        {
+          "sku": "xsolla.sky.snc162"
+        },
+        {
+          "sku": "xsolla.sky.snc212"
+        },
+        {
+          "sku": "xsolla.sky.snc213"
+        },
+        {
+          "sku": "xsolla.sky.snc214"
+        },
+        {
+          "sku": "xsolla.sky.snc35"
+        },
+        {
+          "sku": "xsolla.sky.snc95"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "n": [
+        11,
+        0,
+        0
+      ]
+    },
     {
       "at": "2026-09-11 15:00:37",
       "added": [],
@@ -993,6 +1068,215 @@
         [
           "2026-08-28",
           "2026-09-11"
+        ]
+      ]
+    },
+    "xsolla.sky.snc107": {
+      "name": {
+        "tw": "九色鹿的賜禮",
+        "cn": "九色鹿的天赋",
+        "en": "Gift of the Nine-Colored Deer",
+        "ja": "九色の鹿の贈り物",
+        "ko": "아홉 빛깔 사슴의 선물"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/8ad64f222563742d4ac250a5d3d3862f.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc108": {
+      "name": {
+        "tw": "九色鹿的輝煌",
+        "cn": "九色鹿的光辉",
+        "en": "Radiance of the Nine-Colored Deer",
+        "ja": "九色の鹿の輝き",
+        "ko": "아홉 빛깔 사슴의 빛"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/5733e5d493a40b326f4968be7d9b5512.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc123": {
+      "name": {
+        "tw": "月光耳環",
+        "cn": "月光耳坠",
+        "en": "Moonlight Earring",
+        "ja": "月灯りイヤリング",
+        "ko": "달빛 귀걸이"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/e08a896bc062c8cb28af14d9d98318c3.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc124": {
+      "name": {
+        "tw": "月華罩袍與高髻",
+        "cn": "月华罩袍与高髻",
+        "en": "Moonlight Frock and Updo",
+        "ja": "月灯りの衣とまとめ髪",
+        "ko": "달빛 드레스와 올림머리"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/fc54dd53ff593aec8cecc9ee7f05b806.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc13": {
+      "name": {
+        "tw": "月華燈籠",
+        "cn": "月光灯笼",
+        "en": "Moonlight Lantern",
+        "ja": "月灯りランタン",
+        "ko": "달빛 등불"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/2ee5a10568f0de6ece47d87c013085ea.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc162": {
+      "name": {
+        "tw": "月華緞斗篷",
+        "cn": "月光花环斗篷",
+        "en": "Moonlight Garland Cape",
+        "ja": "月灯り羽衣ケープ",
+        "ko": "달빛 화환 망토"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/8c915d2daa8f06e137ffaf95004695bd.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc212": {
+      "name": {
+        "tw": "月華魯特琴",
+        "cn": "月华鲁特琴",
+        "en": "Moonlight Lute",
+        "ja": "月灯りリュート",
+        "ko": "달빛 류트"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/492f65dff7bedf0e188a46da6d648575.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc213": {
+      "name": {
+        "tw": "月華光輪",
+        "cn": "月华之轮",
+        "en": "Moonlight Nimbus",
+        "ja": "月灯りの光背",
+        "ko": "달빛 후광"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/3d2ee23d89d6b90d5eeeac766b3d9c14.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc214": {
+      "name": {
+        "tw": "月華面紗",
+        "cn": "月华面纱",
+        "en": "Moonlight Veil",
+        "ja": "月灯りベール",
+        "ko": "달빛 베일"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/164b8d44840cff455aa3bf92b9b0ac61.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc35": {
+      "name": {
+        "tw": "月華兔兔飾品",
+        "cn": "月光兔兔头饰",
+        "en": "Moonlight Bunny Accessory",
+        "ja": "月灯り兎アクセサリー",
+        "ko": "달빛 토끼 액세서리"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/71764d2dbd224b68961ada0cd516b483.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc95": {
+      "name": {
+        "tw": "月華兔兔拖",
+        "cn": "月光兔兔拖",
+        "en": "Moonlight Bunny Slippers",
+        "ja": "月灯りバニーシューズ",
+        "ko": "달빛 토끼 슬리퍼"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/17315127c4f04a0c6f9b312fbe1ef99d.png",
+      "first": "2026-09-19",
+      "last": "2026-09-19",
+      "appearances": [
+        [
+          "2026-09-19",
+          null
         ]
       ]
     }

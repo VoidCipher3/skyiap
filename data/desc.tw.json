@@ -2,7 +2,6 @@
   "schema": 1,
   "lang": "tw",
   "desc": {
-    "xsolla.sky.snc208": "特殊活動道具",
     "xsolla.sky.cdl5": "幾只蠟燭（可以送給好友）\n\n在任天堂 Switch 裝置上購買的蠟燭只能在該平台使用，而程式內購買 (IAPs)、節慶活動和季票則可以在所有平台上使用。",
     "xsolla.sky.cdl10": "幾只蠟燭（可以送給好友）\n\n在任天堂 Switch 裝置上購買的蠟燭只能在該平台使用，而程式內購買 (IAPs)、節慶活動和季票則可以在所有平台上使用。",
     "xsolla.sky.cdl20": "幾只蠟燭（可以送給好友）\n\n在任天堂 Switch 裝置上購買的蠟燭只能在該平台使用，而程式內購買 (IAPs)、節慶活動和季票則可以在所有平台上使用。",
@@ -10,6 +9,7 @@
     "xsolla.sky.snc72": "特殊活動道具",
     "xsolla.sky.snc206": "特殊活動道具",
     "xsolla.sky.snc207": "特殊活動道具",
+    "xsolla.sky.snc208": "特殊活動道具",
     "xsolla.sky.snc209": "特殊活動道具",
     "xsolla.sky.snc210": "特殊活動道具",
     "xsolla.sky.snc100": "特殊活動道具",

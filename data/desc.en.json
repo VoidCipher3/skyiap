@@ -2,7 +2,6 @@
   "schema": 1,
   "lang": "en",
   "desc": {
-    "xsolla.sky.snc208": "Special event item",
     "xsolla.sky.cdl5": "Multiple candles to give to your friends.\n\nCandles bought on a Nintendo Switch device are exclusively usable within that platform, while in-app purchases (IAPs), events, and season passes remain accessible across all platforms.",
     "xsolla.sky.cdl10": "Multiple candles to give to your friends.\n\nCandles bought on a Nintendo Switch device are exclusively usable within that platform, while in-app purchases (IAPs), events, and season passes remain accessible across all platforms.",
     "xsolla.sky.cdl20": "Multiple candles to give to your friends.\n\nCandles bought on a Nintendo Switch device are exclusively usable within that platform, while in-app purchases (IAPs), events, and season passes remain accessible across all platforms.",
@@ -10,6 +9,7 @@
     "xsolla.sky.snc72": "Special event item",
     "xsolla.sky.snc206": "Special event item",
     "xsolla.sky.snc207": "Special event item",
+    "xsolla.sky.snc208": "Special event item",
     "xsolla.sky.snc209": "Special event item",
     "xsolla.sky.snc210": "Special event item",
     "xsolla.sky.snc100": "Special event item",

@@ -1,48 +1,105 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-10-10 14:30:51",
+    "checked": "2026-10-10 15:00:50",
     "first_run": false,
-    "history_count": 7,
+    "history_count": 8,
     "history_limit": 200,
     "history_trimmed": 0
   },
   "latest": {
-    "at": "2026-10-02 15:01:08",
+    "at": "2026-10-10 15:00:50",
     "added": [],
     "removed": [
       {
-        "sku": "xsolla.sky.scdl10"
+        "sku": "xsolla.sky.snc107"
       },
       {
-        "sku": "xsolla.sky.scdl20"
+        "sku": "xsolla.sky.snc108"
       },
       {
-        "sku": "xsolla.sky.scdl5"
+        "sku": "xsolla.sky.snc123"
       },
       {
-        "sku": "xsolla.sky.scdl50"
+        "sku": "xsolla.sky.snc124"
       },
       {
-        "sku": "xsolla.sky.spassg"
+        "sku": "xsolla.sky.snc13"
       },
       {
-        "sku": "xsolla.sky.spassp3"
+        "sku": "xsolla.sky.snc162"
       },
       {
-        "sku": "xsolla.sky.spassr"
+        "sku": "xsolla.sky.snc212"
+      },
+      {
+        "sku": "xsolla.sky.snc213"
+      },
+      {
+        "sku": "xsolla.sky.snc214"
+      },
+      {
+        "sku": "xsolla.sky.snc35"
+      },
+      {
+        "sku": "xsolla.sky.snc95"
       }
     ],
     "changed": [],
     "n": [
       0,
-      7,
+      11,
       0
     ],
     "recorded": true,
-    "unchanged_since": true
+    "unchanged_since": false
   },
   "history": [
+    {
+      "at": "2026-10-10 15:00:50",
+      "added": [],
+      "removed": [
+        {
+          "sku": "xsolla.sky.snc107"
+        },
+        {
+          "sku": "xsolla.sky.snc108"
+        },
+        {
+          "sku": "xsolla.sky.snc123"
+        },
+        {
+          "sku": "xsolla.sky.snc124"
+        },
+        {
+          "sku": "xsolla.sky.snc13"
+        },
+        {
+          "sku": "xsolla.sky.snc162"
+        },
+        {
+          "sku": "xsolla.sky.snc212"
+        },
+        {
+          "sku": "xsolla.sky.snc213"
+        },
+        {
+          "sku": "xsolla.sky.snc214"
+        },
+        {
+          "sku": "xsolla.sky.snc35"
+        },
+        {
+          "sku": "xsolla.sky.snc95"
+        }
+      ],
+      "changed": [],
+      "n": [
+        0,
+        11,
+        0
+      ]
+    },
     {
       "at": "2026-10-02 15:01:08",
       "added": [],
@@ -1107,7 +1164,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     },
@@ -1126,7 +1183,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     },
@@ -1145,7 +1202,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     },
@@ -1164,7 +1221,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     },
@@ -1183,7 +1240,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     },
@@ -1202,7 +1259,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     },
@@ -1221,7 +1278,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     },
@@ -1240,7 +1297,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     },
@@ -1259,7 +1316,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     },
@@ -1278,7 +1335,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     },
@@ -1297,7 +1354,7 @@
       "appearances": [
         [
           "2026-09-19",
-          null
+          "2026-10-10"
         ]
       ]
     }

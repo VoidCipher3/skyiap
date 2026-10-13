@@ -1,60 +1,449 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-10-14 03:30:44",
+    "checked": "2026-10-14 04:00:39",
     "first_run": false,
-    "history_count": 8,
+    "history_count": 9,
     "history_limit": 200,
     "history_trimmed": 0
   },
   "latest": {
-    "at": "2026-10-10 15:00:50",
+    "at": "2026-10-14 04:00:39",
     "added": [],
-    "removed": [
+    "removed": [],
+    "changed": [
       {
-        "sku": "xsolla.sky.snc107"
+        "sku": "xsolla.sky.cdl10",
+        "changes": [
+          [
+            "ID",
+            169000.0,
+            199000.0
+          ],
+          [
+            "IL",
+            34.9,
+            29.9
+          ]
+        ]
       },
       {
-        "sku": "xsolla.sky.snc108"
+        "sku": "xsolla.sky.cdl20",
+        "changes": [
+          [
+            "ID",
+            349000.0,
+            399000.0
+          ],
+          [
+            "IL",
+            69.9,
+            59.9
+          ]
+        ]
       },
       {
-        "sku": "xsolla.sky.snc123"
+        "sku": "xsolla.sky.cdl5",
+        "changes": [
+          [
+            "ID",
+            89000.0,
+            99000.0
+          ],
+          [
+            "IL",
+            17.9,
+            14.9
+          ]
+        ]
       },
       {
-        "sku": "xsolla.sky.snc124"
+        "sku": "xsolla.sky.cdl50",
+        "changes": [
+          [
+            "ID",
+            799000.0,
+            999000.0
+          ],
+          [
+            "IL",
+            179.9,
+            149.9
+          ]
+        ]
       },
       {
-        "sku": "xsolla.sky.snc13"
+        "sku": "xsolla.sky.snc100",
+        "changes": [
+          [
+            "ID",
+            169000.0,
+            199000.0
+          ],
+          [
+            "IL",
+            34.9,
+            29.9
+          ]
+        ]
       },
       {
-        "sku": "xsolla.sky.snc162"
+        "sku": "xsolla.sky.snc159",
+        "changes": [
+          [
+            "ID",
+            399000.0,
+            499000.0
+          ],
+          [
+            "IL",
+            89.9,
+            79.9
+          ]
+        ]
       },
       {
-        "sku": "xsolla.sky.snc212"
+        "sku": "xsolla.sky.snc206",
+        "changes": [
+          [
+            "ID",
+            49000.0,
+            59000.0
+          ]
+        ]
       },
       {
-        "sku": "xsolla.sky.snc213"
+        "sku": "xsolla.sky.snc207",
+        "changes": [
+          [
+            "ID",
+            89000.0,
+            99000.0
+          ],
+          [
+            "IL",
+            17.9,
+            14.9
+          ]
+        ]
       },
       {
-        "sku": "xsolla.sky.snc214"
+        "sku": "xsolla.sky.snc208",
+        "changes": [
+          [
+            "ID",
+            249000.0,
+            299000.0
+          ],
+          [
+            "UA",
+            810.0,
+            800.0
+          ]
+        ]
       },
       {
-        "sku": "xsolla.sky.snc35"
+        "sku": "xsolla.sky.snc209",
+        "changes": [
+          [
+            "ID",
+            399000.0,
+            499000.0
+          ],
+          [
+            "IL",
+            89.9,
+            79.9
+          ]
+        ]
       },
       {
-        "sku": "xsolla.sky.snc95"
+        "sku": "xsolla.sky.snc210",
+        "changes": [
+          [
+            "ID",
+            249000.0,
+            299000.0
+          ],
+          [
+            "UA",
+            810.0,
+            800.0
+          ]
+        ]
+      },
+      {
+        "sku": "xsolla.sky.snc70",
+        "changes": [
+          [
+            "ID",
+            399000.0,
+            499000.0
+          ],
+          [
+            "IL",
+            89.9,
+            79.9
+          ]
+        ]
+      },
+      {
+        "sku": "xsolla.sky.snc72",
+        "changes": [
+          [
+            "ID",
+            249000.0,
+            299000.0
+          ],
+          [
+            "UA",
+            810.0,
+            800.0
+          ]
+        ]
+      },
+      {
+        "sku": "xsolla.sky.snc99",
+        "changes": [
+          [
+            "ID",
+            169000.0,
+            199000.0
+          ],
+          [
+            "IL",
+            34.9,
+            29.9
+          ]
+        ]
       }
     ],
-    "changed": [],
     "n": [
       0,
-      11,
-      0
+      0,
+      14
     ],
     "recorded": true,
-    "unchanged_since": true
+    "unchanged_since": false
   },
   "history": [
+    {
+      "at": "2026-10-14 04:00:39",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "sku": "xsolla.sky.cdl10",
+          "changes": [
+            [
+              "ID",
+              169000.0,
+              199000.0
+            ],
+            [
+              "IL",
+              34.9,
+              29.9
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.cdl20",
+          "changes": [
+            [
+              "ID",
+              349000.0,
+              399000.0
+            ],
+            [
+              "IL",
+              69.9,
+              59.9
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.cdl5",
+          "changes": [
+            [
+              "ID",
+              89000.0,
+              99000.0
+            ],
+            [
+              "IL",
+              17.9,
+              14.9
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.cdl50",
+          "changes": [
+            [
+              "ID",
+              799000.0,
+              999000.0
+            ],
+            [
+              "IL",
+              179.9,
+              149.9
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.snc100",
+          "changes": [
+            [
+              "ID",
+              169000.0,
+              199000.0
+            ],
+            [
+              "IL",
+              34.9,
+              29.9
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.snc159",
+          "changes": [
+            [
+              "ID",
+              399000.0,
+              499000.0
+            ],
+            [
+              "IL",
+              89.9,
+              79.9
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.snc206",
+          "changes": [
+            [
+              "ID",
+              49000.0,
+              59000.0
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.snc207",
+          "changes": [
+            [
+              "ID",
+              89000.0,
+              99000.0
+            ],
+            [
+              "IL",
+              17.9,
+              14.9
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.snc208",
+          "changes": [
+            [
+              "ID",
+              249000.0,
+              299000.0
+            ],
+            [
+              "UA",
+              810.0,
+              800.0
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.snc209",
+          "changes": [
+            [
+              "ID",
+              399000.0,
+              499000.0
+            ],
+            [
+              "IL",
+              89.9,
+              79.9
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.snc210",
+          "changes": [
+            [
+              "ID",
+              249000.0,
+              299000.0
+            ],
+            [
+              "UA",
+              810.0,
+              800.0
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.snc70",
+          "changes": [
+            [
+              "ID",
+              399000.0,
+              499000.0
+            ],
+            [
+              "IL",
+              89.9,
+              79.9
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.snc72",
+          "changes": [
+            [
+              "ID",
+              249000.0,
+              299000.0
+            ],
+            [
+              "UA",
+              810.0,
+              800.0
+            ]
+          ]
+        },
+        {
+          "sku": "xsolla.sky.snc99",
+          "changes": [
+            [
+              "ID",
+              169000.0,
+              199000.0
+            ],
+            [
+              "IL",
+              34.9,
+              29.9
+            ]
+          ]
+        }
+      ],
+      "n": [
+        0,
+        0,
+        14
+      ]
+    },
     {
       "at": "2026-10-10 15:00:50",
       "added": [],

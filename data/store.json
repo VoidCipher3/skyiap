@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "meta": {
-    "fetched": "2026-10-16 07:31:02",
+    "fetched": "2026-10-16 08:01:07",
     "project": "207830",
     "groups": [
       "events",
@@ -352,7 +352,7 @@
         "ja": "35 キャンドル",
         "ko": "35 일반양초"
       },
-      "image": "https://cdn3.xsolla.com/img/misc/images/89b15aeb1700c24209be2328a5952936.png",
+      "image": "https://sky.thatg.co/xsolla/cdl10-dabbf3cda7a82a73793e2c3dd8fe232e.png",
       "group": "candles",
       "prices": {
         "TW": 320.0,
@@ -406,7 +406,7 @@
         "ja": "72 キャンドル",
         "ko": "72 일반양초"
       },
-      "image": "https://cdn3.xsolla.com/img/misc/images/4de0700e906a86d56616f2002fd2500f.png",
+      "image": "https://sky.thatg.co/xsolla/cdl20-0a9d2c72fa5e70e03c28e69c521547ca.png",
       "group": "candles",
       "prices": {
         "TW": 690.0,
@@ -460,7 +460,7 @@
         "ja": "15 キャンドル",
         "ko": "15 일반양초"
       },
-      "image": "https://cdn3.xsolla.com/img/misc/images/47ae28fdbc3efa757dd9beda80ebe9e6.png",
+      "image": "https://sky.thatg.co/xsolla/cdl5-b05b7b1d7f9c48ea3c9955c4da77ce16.png",
       "group": "candles",
       "prices": {
         "TW": 150.0,
@@ -514,7 +514,7 @@
         "ja": "190 キャンドル",
         "ko": "190 일반양초"
       },
-      "image": "https://cdn3.xsolla.com/img/misc/images/7f2218e82a2bd80b8a7e4605a2e1fa30.png",
+      "image": "https://sky.thatg.co/xsolla/cdl50-d17bef0d52e73ef3cb98e9f2d15bb692.png",
       "group": "candles",
       "prices": {
         "TW": 1490.0,
@@ -568,7 +568,7 @@
         "ja": "すずめ感謝パック",
         "ko": "참새 환영 팩"
       },
-      "image": "https://sky.thatg.co/xsolla/1f863ef4f93c47b21ae57de74b56a38043520978d2c341bb8e1b802dbcf8a2c2.png",
+      "image": "https://sky.thatg.co/xsolla/snc100-1f863ef4f93c47b21ae57de74b56a380.png",
       "group": "evergreen",
       "prices": {
         "TW": 320.0,
@@ -620,7 +620,7 @@
         "ja": "記憶の映写機",
         "ko": "기억의 영사기"
       },
-      "image": "https://cdn3.xsolla.com/img/misc/images/02aef8864b4f3231f84f5da0e277e352.png",
+      "image": "https://sky.thatg.co/xsolla/snc159-3f7c4b6c9c71433b3a17f4215591e666.png",
       "group": "evergreen",
       "prices": {
         "TW": 790.0,
@@ -672,7 +672,7 @@
         "ja": "星月夜の面影",
         "ko": "별이 빛나는 밤의 얼굴"
       },
-      "image": "https://cdn3.xsolla.com/img/misc/images/1a2ccb0ae5f3f8750ac7003178943727.png",
+      "image": "https://sky.thatg.co/xsolla/snc206-62dfef640dcbda6ef60796cd81f9854b.png",
       "group": "evergreen",
       "prices": {
         "TW": 90.0,
@@ -724,7 +724,7 @@
         "ja": "星月夜の口づけ",
         "ko": "별이 빛나는 밤의 입맞춤"
       },
-      "image": "https://cdn3.xsolla.com/img/misc/images/2e8c5a10fb75e4512b19c51e8a239f63.png",
+      "image": "https://sky.thatg.co/xsolla/snc207-dd8c447f08d8a2df6add3c726bb8b06c.png",
       "group": "evergreen",
       "prices": {
         "TW": 150.0,
@@ -776,7 +776,7 @@
         "ja": "麦畑ケープ",
         "ko": "밀밭 망토"
       },
-      "image": "https://cdn3.xsolla.com/img/misc/images/30c5dab39134e53d27be3382fd2f29ff.png",
+      "image": "https://sky.thatg.co/xsolla/snc208-209da1ee5681843d19ba110b000734f0.png",
       "group": "evergreen",
       "prices": {
         "TW": 490.0,
@@ -828,7 +828,7 @@
         "ja": "星月夜の外套",
         "ko": "별이 빛나는 밤의 장막"
       },
-      "image": "https://cdn3.xsolla.com/img/misc/images/f2576f9ff41ef4994e52a991d812c1ae.png",
+      "image": "https://sky.thatg.co/xsolla/snc209-5d842a53ff1fce42f4285375a2dffdfa.png",
       "group": "evergreen",
       "prices": {
         "TW": 790.0,
@@ -880,7 +880,7 @@
         "ja": "星月夜の傘",
         "ko": "별이 빛나는 밤의 우산"
       },
-      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/9ba55bb4101b8e1c6abcd1a5a91423fb.gif",
+      "image": "https://sky.thatg.co/xsolla/snc210-9188d8eaba6026259abab3e8d160e029.png",
       "group": "evergreen",
       "prices": {
         "TW": 490.0,
@@ -932,7 +932,7 @@
         "ja": "風ノ旅ビトパック",
         "ko": "Journey 팩"
       },
-      "image": "https://sky.thatg.co/xsolla/6c329a772fb68d9d4dffe7726b8ff41d11672e3484cf850eebc6d40d7cb6c45b.png",
+      "image": "https://sky.thatg.co/xsolla/snc70-6c329a772fb68d9d4dffe7726b8ff41d.png",
       "group": "evergreen",
       "prices": {
         "TW": 790.0,
@@ -984,7 +984,7 @@
         "ja": "Flowery＆flOwパック",
         "ko": "Flower + FlOw 팩"
       },
-      "image": "https://cdn3.xsolla.com/img/misc/images/7a243a7f1c0ceca1d025ef4f80331b8b.png",
+      "image": "https://sky.thatg.co/xsolla/snc72-25480f5e72905e7ab352fdf7045dfd1f.png",
       "group": "evergreen",
       "prices": {
         "TW": 490.0,
@@ -1036,7 +1036,7 @@
         "ja": "モス感謝パック",
         "ko": "나방 환영 팩"
       },
-      "image": "https://sky.thatg.co/xsolla/4a3ed3810cffe481967dd08c325209abfcaae5fc63111f0ca81f0bad0acb83ba.png",
+      "image": "https://sky.thatg.co/xsolla/snc99-4a3ed3810cffe481967dd08c325209ab.png",
       "group": "evergreen",
       "prices": {
         "TW": 320.0,

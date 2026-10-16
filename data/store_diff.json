@@ -1,232 +1,81 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-10-16 14:31:01",
+    "checked": "2026-10-16 15:01:03",
     "first_run": false,
-    "history_count": 9,
+    "history_count": 10,
     "history_limit": 200,
     "history_trimmed": 0
   },
   "latest": {
-    "at": "2026-10-14 04:00:39",
-    "added": [],
-    "removed": [],
-    "changed": [
+    "at": "2026-10-16 15:01:03",
+    "added": [
       {
-        "sku": "xsolla.sky.cdl10",
-        "changes": [
-          [
-            "ID",
-            169000.0,
-            199000.0
-          ],
-          [
-            "IL",
-            34.9,
-            29.9
-          ]
-        ]
+        "sku": "xsolla.sky.scdl10"
       },
       {
-        "sku": "xsolla.sky.cdl20",
-        "changes": [
-          [
-            "ID",
-            349000.0,
-            399000.0
-          ],
-          [
-            "IL",
-            69.9,
-            59.9
-          ]
-        ]
+        "sku": "xsolla.sky.scdl20"
       },
       {
-        "sku": "xsolla.sky.cdl5",
-        "changes": [
-          [
-            "ID",
-            89000.0,
-            99000.0
-          ],
-          [
-            "IL",
-            17.9,
-            14.9
-          ]
-        ]
+        "sku": "xsolla.sky.scdl5"
       },
       {
-        "sku": "xsolla.sky.cdl50",
-        "changes": [
-          [
-            "ID",
-            799000.0,
-            999000.0
-          ],
-          [
-            "IL",
-            179.9,
-            149.9
-          ]
-        ]
+        "sku": "xsolla.sky.scdl50"
       },
       {
-        "sku": "xsolla.sky.snc100",
-        "changes": [
-          [
-            "ID",
-            169000.0,
-            199000.0
-          ],
-          [
-            "IL",
-            34.9,
-            29.9
-          ]
-        ]
+        "sku": "xsolla.sky.spassg"
       },
       {
-        "sku": "xsolla.sky.snc159",
-        "changes": [
-          [
-            "ID",
-            399000.0,
-            499000.0
-          ],
-          [
-            "IL",
-            89.9,
-            79.9
-          ]
-        ]
+        "sku": "xsolla.sky.spassp3"
       },
       {
-        "sku": "xsolla.sky.snc206",
-        "changes": [
-          [
-            "ID",
-            49000.0,
-            59000.0
-          ]
-        ]
-      },
-      {
-        "sku": "xsolla.sky.snc207",
-        "changes": [
-          [
-            "ID",
-            89000.0,
-            99000.0
-          ],
-          [
-            "IL",
-            17.9,
-            14.9
-          ]
-        ]
-      },
-      {
-        "sku": "xsolla.sky.snc208",
-        "changes": [
-          [
-            "ID",
-            249000.0,
-            299000.0
-          ],
-          [
-            "UA",
-            810.0,
-            800.0
-          ]
-        ]
-      },
-      {
-        "sku": "xsolla.sky.snc209",
-        "changes": [
-          [
-            "ID",
-            399000.0,
-            499000.0
-          ],
-          [
-            "IL",
-            89.9,
-            79.9
-          ]
-        ]
-      },
-      {
-        "sku": "xsolla.sky.snc210",
-        "changes": [
-          [
-            "ID",
-            249000.0,
-            299000.0
-          ],
-          [
-            "UA",
-            810.0,
-            800.0
-          ]
-        ]
-      },
-      {
-        "sku": "xsolla.sky.snc70",
-        "changes": [
-          [
-            "ID",
-            399000.0,
-            499000.0
-          ],
-          [
-            "IL",
-            89.9,
-            79.9
-          ]
-        ]
-      },
-      {
-        "sku": "xsolla.sky.snc72",
-        "changes": [
-          [
-            "ID",
-            249000.0,
-            299000.0
-          ],
-          [
-            "UA",
-            810.0,
-            800.0
-          ]
-        ]
-      },
-      {
-        "sku": "xsolla.sky.snc99",
-        "changes": [
-          [
-            "ID",
-            169000.0,
-            199000.0
-          ],
-          [
-            "IL",
-            34.9,
-            29.9
-          ]
-        ]
+        "sku": "xsolla.sky.spassr"
       }
     ],
+    "removed": [],
+    "changed": [],
     "n": [
+      7,
       0,
-      0,
-      14
+      0
     ],
     "recorded": true,
-    "unchanged_since": true
+    "unchanged_since": false
   },
   "history": [
+    {
+      "at": "2026-10-16 15:01:03",
+      "added": [
+        {
+          "sku": "xsolla.sky.scdl10"
+        },
+        {
+          "sku": "xsolla.sky.scdl20"
+        },
+        {
+          "sku": "xsolla.sky.scdl5"
+        },
+        {
+          "sku": "xsolla.sky.scdl50"
+        },
+        {
+          "sku": "xsolla.sky.spassg"
+        },
+        {
+          "sku": "xsolla.sky.spassp3"
+        },
+        {
+          "sku": "xsolla.sky.spassr"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "n": [
+        7,
+        0,
+        0
+      ]
+    },
     {
       "at": "2026-10-14 04:00:39",
       "added": [],
@@ -1292,15 +1141,19 @@
         "ko": "35 시즌양초"
       },
       "group": "seasons",
-      "image": "https://cdn3.xsolla.com/img/misc/images/286cb046168264c3ce0e5643b5059334.png",
+      "image": "https://sky.thatg.co/xsolla/scdl10-7fec0aeff672b1557c10f68284429d04.png",
       "candles": 35,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-10-02",
+      "last": "2026-10-16",
       "appearances": [
         [
           "2026-08-01",
           "2026-10-02"
+        ],
+        [
+          "2026-10-16",
+          null
         ]
       ]
     },
@@ -1313,15 +1166,19 @@
         "ko": "72 시즌양초"
       },
       "group": "seasons",
-      "image": "https://cdn3.xsolla.com/img/misc/images/a40e15cb20f645e086f3bda553148e1b.png",
+      "image": "https://sky.thatg.co/xsolla/scdl20-cf4a7a37d6fc219b4770d90b5d1fc4b9.png",
       "candles": 72,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-10-02",
+      "last": "2026-10-16",
       "appearances": [
         [
           "2026-08-01",
           "2026-10-02"
+        ],
+        [
+          "2026-10-16",
+          null
         ]
       ]
     },
@@ -1334,15 +1191,19 @@
         "ko": "15 시즌양초"
       },
       "group": "seasons",
-      "image": "https://cdn3.xsolla.com/img/misc/images/0728f24a09941c1b686d853fca363f64.png",
+      "image": "https://sky.thatg.co/xsolla/scdl5-7ab543f0d8322cd85b76978e9f564cc7.png",
       "candles": 15,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-10-02",
+      "last": "2026-10-16",
       "appearances": [
         [
           "2026-08-01",
           "2026-10-02"
+        ],
+        [
+          "2026-10-16",
+          null
         ]
       ]
     },
@@ -1355,15 +1216,19 @@
         "ko": "190 시즌양초"
       },
       "group": "seasons",
-      "image": "https://cdn3.xsolla.com/img/misc/images/4e9f689cca347a54954b4a777947d4fd.png",
+      "image": "https://sky.thatg.co/xsolla/scdl50-c3ee19dae8cb9f2139c27cedad258699.png",
       "candles": 190,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-10-02",
+      "last": "2026-10-16",
       "appearances": [
         [
           "2026-08-01",
           "2026-10-02"
+        ],
+        [
+          "2026-10-16",
+          null
         ]
       ]
     },
@@ -1452,13 +1317,17 @@
         "ko": "선물용 시즌패스"
       },
       "group": "seasons",
-      "image": "https://cdn3.xsolla.com/img/misc/images/958e45dae4d8d76a935a051e145358b5.png",
+      "image": "https://sky.thatg.co/xsolla/spassg-dd743d864f9e5572d28d87030ed6f2b9.png",
       "first": "2026-08-01",
-      "last": "2026-10-02",
+      "last": "2026-10-16",
       "appearances": [
         [
           "2026-08-01",
           "2026-10-02"
+        ],
+        [
+          "2026-10-16",
+          null
         ]
       ]
     },
@@ -1471,13 +1340,17 @@
         "ko": "시즌 패스 팩"
       },
       "group": "seasons",
-      "image": "https://cdn3.xsolla.com/img/misc/images/9da98f4774573fe6e4827900e64f5756.png",
+      "image": "https://sky.thatg.co/xsolla/spassp3-ff71d2db8bc643d15063c8d331780a96.png",
       "first": "2026-08-01",
-      "last": "2026-10-02",
+      "last": "2026-10-16",
       "appearances": [
         [
           "2026-08-01",
           "2026-10-02"
+        ],
+        [
+          "2026-10-16",
+          null
         ]
       ]
     },
@@ -1490,13 +1363,17 @@
         "ko": "시즌 패스 일반"
       },
       "group": "seasons",
-      "image": "https://cdn3.xsolla.com/img/misc/images/9bf28baa76d42e87e0660cf59b68d406.png",
+      "image": "https://sky.thatg.co/xsolla/spassr-e595920f56354f2e9d4e63175134e56c.png",
       "first": "2026-08-01",
-      "last": "2026-10-02",
+      "last": "2026-10-16",
       "appearances": [
         [
           "2026-08-01",
           "2026-10-02"
+        ],
+        [
+          "2026-10-16",
+          null
         ]
       ]
     },

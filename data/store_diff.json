@@ -1,48 +1,141 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-10-23 14:31:14",
+    "checked": "2026-10-23 15:20:46",
     "first_run": false,
-    "history_count": 10,
+    "history_count": 11,
     "history_limit": 200,
     "history_trimmed": 0
   },
   "latest": {
-    "at": "2026-10-16 15:01:03",
+    "at": "2026-10-23 15:20:46",
     "added": [
       {
-        "sku": "xsolla.sky.scdl10"
+        "sku": "xsolla.sky.snc05"
       },
       {
-        "sku": "xsolla.sky.scdl20"
+        "sku": "xsolla.sky.snc06"
       },
       {
-        "sku": "xsolla.sky.scdl5"
+        "sku": "xsolla.sky.snc128"
       },
       {
-        "sku": "xsolla.sky.scdl50"
+        "sku": "xsolla.sky.snc129"
       },
       {
-        "sku": "xsolla.sky.spassg"
+        "sku": "xsolla.sky.snc14"
       },
       {
-        "sku": "xsolla.sky.spassp3"
+        "sku": "xsolla.sky.snc15"
       },
       {
-        "sku": "xsolla.sky.spassr"
+        "sku": "xsolla.sky.snc170"
+      },
+      {
+        "sku": "xsolla.sky.snc171"
+      },
+      {
+        "sku": "xsolla.sky.snc36"
+      },
+      {
+        "sku": "xsolla.sky.snc37"
+      },
+      {
+        "sku": "xsolla.sky.snc38"
+      },
+      {
+        "sku": "xsolla.sky.snc39"
+      },
+      {
+        "sku": "xsolla.sky.snc61"
+      },
+      {
+        "sku": "xsolla.sky.snc62"
+      },
+      {
+        "sku": "xsolla.sky.snc96"
+      },
+      {
+        "sku": "xsolla.sky.snc97"
+      },
+      {
+        "sku": "xsolla.sky.snc98"
       }
     ],
     "removed": [],
     "changed": [],
     "n": [
-      7,
+      17,
       0,
       0
     ],
     "recorded": true,
-    "unchanged_since": true
+    "unchanged_since": false
   },
   "history": [
+    {
+      "at": "2026-10-23 15:20:46",
+      "added": [
+        {
+          "sku": "xsolla.sky.snc05"
+        },
+        {
+          "sku": "xsolla.sky.snc06"
+        },
+        {
+          "sku": "xsolla.sky.snc128"
+        },
+        {
+          "sku": "xsolla.sky.snc129"
+        },
+        {
+          "sku": "xsolla.sky.snc14"
+        },
+        {
+          "sku": "xsolla.sky.snc15"
+        },
+        {
+          "sku": "xsolla.sky.snc170"
+        },
+        {
+          "sku": "xsolla.sky.snc171"
+        },
+        {
+          "sku": "xsolla.sky.snc36"
+        },
+        {
+          "sku": "xsolla.sky.snc37"
+        },
+        {
+          "sku": "xsolla.sky.snc38"
+        },
+        {
+          "sku": "xsolla.sky.snc39"
+        },
+        {
+          "sku": "xsolla.sky.snc61"
+        },
+        {
+          "sku": "xsolla.sky.snc62"
+        },
+        {
+          "sku": "xsolla.sky.snc96"
+        },
+        {
+          "sku": "xsolla.sky.snc97"
+        },
+        {
+          "sku": "xsolla.sky.snc98"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "n": [
+        17,
+        0,
+        0
+      ]
+    },
     {
       "at": "2026-10-16 15:01:03",
       "added": [
@@ -1621,6 +1714,329 @@
         [
           "2026-09-19",
           "2026-10-10"
+        ]
+      ]
+    },
+    "xsolla.sky.snc05": {
+      "name": {
+        "tw": "陰森蝙蝠斗篷",
+        "cn": "恐怖的蝙蝠斗篷",
+        "en": "Spooky Bat Cape",
+        "ja": "ドキドキコウモリケープ",
+        "ko": "짜증 박쥐 케이프"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc05-07dcf1ff7fd075b4a8191e9d36aee620.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc06": {
+      "name": {
+        "tw": "飢餓南瓜帽",
+        "cn": "“饥饿的南瓜”帽子",
+        "en": "Hungry Pumpkin Hat",
+        "ja": "はらぺこパンプキンハット",
+        "ko": "굶주린 호박 모자"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc06-366633ad44493270e3a81266e9586db5.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc128": {
+      "name": {
+        "tw": "搗蛋枯枝掃把",
+        "cn": "捣蛋节枯萎扫帚",
+        "en": "Mischief Withered Broom",
+        "ja": "いたずら枯れ木箒",
+        "ko": "장난꾸러기 시든 빗자루"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc128-0288de6b9f32b7f5366e052244a67d96.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc129": {
+      "name": {
+        "tw": "搗蛋渡鴉羽毛斗篷",
+        "cn": "捣蛋节渡鸦羽毛披风",
+        "en": "Mischief Raven-feathered Cloak",
+        "ja": "いたずらカラスの羽ケープ",
+        "ko": "장난꾸러기 까마귀 깃털 망토"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc129-b5ea146e82d774ec63b1d35f74c3fd09.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc14": {
+      "name": {
+        "tw": "魔法女巫帽",
+        "cn": "魔法女巫帽",
+        "en": "Mischief Witch Hat",
+        "ja": "いたずらウィッチハット",
+        "ko": "장난꾸러기 마녀모자"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc14-5b7aa9aac40253f66d7404e0880035e9.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc15": {
+      "name": {
+        "tw": "蜘蛛網斗篷",
+        "cn": "蜘蛛网斗篷",
+        "en": "Mischief Web Cape",
+        "ja": "いたずらスパイダーケープ",
+        "ko": "장난꾸러기 거미줄망토"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc15-503d32d37d1278ce024b12d297e68779.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc170": {
+      "name": {
+        "tw": "搗蛋節貓咪飾品組",
+        "cn": "捣蛋节猫咪饰品套组",
+        "en": "Mischief Feline Accessory Duo",
+        "ja": "猫ねこアクセサリーパック",
+        "ko": "장난꾸러기 고양이 액세서리 듀오"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/3d20c09cd25a2416ed7ebf1b9ea11468.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc171": {
+      "name": {
+        "tw": "搗蛋節謎匠寬沿帽",
+        "cn": "捣蛋节谜题师宽沿帽",
+        "en": "Mischief Puzzlewright's Brimmed Hat",
+        "ja": "いたずらパズル作家のつば付き帽",
+        "ko": "장난꾸러기 퍼즐 제작자의 챙 넓은 모자"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/a21a5f70a47072535b28338a57c00cdf.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc36": {
+      "name": {
+        "tw": "萬聖節枯萎鹿角",
+        "cn": "万圣节枯萎鹿角",
+        "en": "Mischief Withered Antlers",
+        "ja": "いたずら枯れ木角",
+        "ko": "장난꾸러기 시든 뿔"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc36-abc0bd569fd69ac360464dbd5bd12d26.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc37": {
+      "name": {
+        "tw": "萬聖節女巫服",
+        "cn": "万圣节女巫服",
+        "en": "Mischief Witch Jumper",
+        "ja": "いたずらウィッチ・ジャンパースカート",
+        "ko": "장난꾸러기 마녀 점퍼"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc37-55387b19567b774b104443ba3a21c9f4.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc38": {
+      "name": {
+        "tw": "萬聖節蜘蛛姑娘",
+        "cn": "万圣节蜘蛛姑娘",
+        "en": "Mischief Spider Quiff",
+        "ja": "いたずらスパイダー・ヘア",
+        "ko": "장난꾸러기 거미 헤어스타일"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc38-354ab05b69adccce641cbb406244f01b.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc39": {
+      "name": {
+        "tw": "萬聖節南瓜道具",
+        "cn": "万圣节南瓜道具",
+        "en": "Mischief Pumpkin Prop",
+        "ja": "いたずらパンプキンの置物",
+        "ko": "장난꾸러기 호박 소품"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc39-819ecce5a3285c100697e1591b6ef51e.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc61": {
+      "name": {
+        "tw": "貓咪裝扮禮包",
+        "cn": "猫咪服装礼包",
+        "en": "Cat Costume Pack",
+        "ja": "猫ねこパック",
+        "ko": "고양이 의상 팩"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc61-5770cfcffb216524fe7af8f3f57aefbc.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc62": {
+      "name": {
+        "tw": "貓咪使魔道具",
+        "cn": "猫咪使魔道具",
+        "en": "Feline Familiar Prop",
+        "ja": "猫の使い魔",
+        "ko": "고양이 패밀리어 소품"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc62-27c8d27e7a218a29f44cbddf877699f1.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc96": {
+      "name": {
+        "tw": "頑皮輕巧斗篷",
+        "cn": "顽皮蛛丝斗篷",
+        "en": "Mischief Gossamer Cape",
+        "ja": "いたずら蜘蛛の白紗ケープ",
+        "ko": "장난꾸러기 거미줄 망토"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc96-cdc3c187638dcd65ab49655ed5ab7295.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc97": {
+      "name": {
+        "tw": "頑皮巨蟹面具",
+        "cn": "顽皮蟹古拉面具",
+        "en": "Mischief Crabula Mask",
+        "ja": "いたずら蟹伯爵マスク",
+        "ko": "장난꾸러기 크래뷸라 마스크"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc97-260485d520341a8a6c3d6285e3386564.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc98": {
+      "name": {
+        "tw": "頑皮巨蟹披風",
+        "cn": "顽皮蟹古拉披风",
+        "en": "Mischief Crabula Cloak",
+        "ja": "いたずら蟹伯爵マント",
+        "ko": "장난꾸러기 크래뷸라 망토"
+      },
+      "group": "events",
+      "image": "https://sky.thatg.co/xsolla/snc98-2a0f82c10a98ab53e483be929f895c54.png",
+      "first": "2026-10-23",
+      "last": "2026-10-23",
+      "appearances": [
+        [
+          "2026-10-23",
+          null
         ]
       ]
     }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-10-25 23:31:51",
+    "checked": "2026-10-26 00:01:06",
     "first_run": false,
     "history_count": 11,
     "history_limit": 200,
@@ -829,7 +829,7 @@
       "candles": 35,
       "candle_type": "regular",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -850,7 +850,7 @@
       "candles": 72,
       "candle_type": "regular",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -871,7 +871,7 @@
       "candles": 15,
       "candle_type": "regular",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -892,7 +892,7 @@
       "candles": 190,
       "candle_type": "regular",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1141,7 +1141,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/snc100-1f863ef4f93c47b21ae57de74b56a380.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1160,7 +1160,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/snc159-3f7c4b6c9c71433b3a17f4215591e666.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1179,7 +1179,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/snc70-6c329a772fb68d9d4dffe7726b8ff41d.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1198,7 +1198,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/snc72-25480f5e72905e7ab352fdf7045dfd1f.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1217,7 +1217,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/snc99-4a3ed3810cffe481967dd08c325209ab.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1238,7 +1238,7 @@
       "candles": 35,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1263,7 +1263,7 @@
       "candles": 72,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1288,7 +1288,7 @@
       "candles": 15,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1313,7 +1313,7 @@
       "candles": 190,
       "candle_type": "season",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1336,7 +1336,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/snc206-62dfef640dcbda6ef60796cd81f9854b.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1355,7 +1355,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/snc207-dd8c447f08d8a2df6add3c726bb8b06c.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1374,7 +1374,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/snc208-209da1ee5681843d19ba110b000734f0.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1393,7 +1393,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/snc209-5d842a53ff1fce42f4285375a2dffdfa.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1412,7 +1412,7 @@
       "group": "seasons",
       "image": "https://sky.thatg.co/xsolla/spassg-dd743d864f9e5572d28d87030ed6f2b9.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1435,7 +1435,7 @@
       "group": "seasons",
       "image": "https://sky.thatg.co/xsolla/spassp3-ff71d2db8bc643d15063c8d331780a96.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1458,7 +1458,7 @@
       "group": "seasons",
       "image": "https://sky.thatg.co/xsolla/spassr-e595920f56354f2e9d4e63175134e56c.png",
       "first": "2026-08-01",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-01",
@@ -1481,7 +1481,7 @@
       "group": "evergreen",
       "image": "https://sky.thatg.co/xsolla/snc210-9188d8eaba6026259abab3e8d160e029.png",
       "first": "2026-08-26",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-08-26",
@@ -1728,7 +1728,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc05-07dcf1ff7fd075b4a8191e9d36aee620.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1747,7 +1747,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc06-366633ad44493270e3a81266e9586db5.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1766,7 +1766,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc128-0288de6b9f32b7f5366e052244a67d96.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1785,7 +1785,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc129-b5ea146e82d774ec63b1d35f74c3fd09.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1804,7 +1804,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc14-5b7aa9aac40253f66d7404e0880035e9.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1823,7 +1823,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc15-503d32d37d1278ce024b12d297e68779.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1842,7 +1842,7 @@
       "group": "events",
       "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/3d20c09cd25a2416ed7ebf1b9ea11468.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1861,7 +1861,7 @@
       "group": "events",
       "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/a21a5f70a47072535b28338a57c00cdf.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1880,7 +1880,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc36-abc0bd569fd69ac360464dbd5bd12d26.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1899,7 +1899,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc37-55387b19567b774b104443ba3a21c9f4.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1918,7 +1918,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc38-354ab05b69adccce641cbb406244f01b.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1937,7 +1937,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc39-819ecce5a3285c100697e1591b6ef51e.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1956,7 +1956,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc61-5770cfcffb216524fe7af8f3f57aefbc.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1975,7 +1975,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc62-27c8d27e7a218a29f44cbddf877699f1.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -1994,7 +1994,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc96-cdc3c187638dcd65ab49655ed5ab7295.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -2013,7 +2013,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc97-260485d520341a8a6c3d6285e3386564.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",
@@ -2032,7 +2032,7 @@
       "group": "events",
       "image": "https://sky.thatg.co/xsolla/snc98-2a0f82c10a98ab53e483be929f895c54.png",
       "first": "2026-10-23",
-      "last": "2026-10-25",
+      "last": "2026-10-26",
       "appearances": [
         [
           "2026-10-23",

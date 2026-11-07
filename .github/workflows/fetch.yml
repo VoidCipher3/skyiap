@@ -34,6 +34,11 @@ jobs:
         env:
           LIFECYCLE: ${{ secrets.LIFECYCLE }}
           SCRIPT_FETCH: ${{ secrets.SCRIPT_FETCH }}
+      # 價位對照紀錄。失敗不擋後面的部署與 commit：價格資料照常更新，
+      # 只是這次的 tier_history.json 沒有更新（Actions 頁面會標黃）
+      - name: Update price-tier history
+        continue-on-error: true
+        run: python tools/tier_history.py
       - name: Deploy Worker (site + API)
         uses: nick-fields/retry@v3
         with:

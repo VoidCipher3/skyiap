@@ -269,3 +269,23 @@ td.name-cell { word-break: break-word; min-width: 120px; }
   .split-table { font-size: 11.5px; }
   .split-table th, .split-table td { padding: 7px 6px; }
 }
+
+/* ---------------------------------------------------------------- 價位對照 / 版本 */
+
+/* 價位對照只沿用基準幣與地區勾選 */
+#priceControls.tier-mode .price-only { display: none !important; }
+.tier-controls { align-items: end; }
+.tier-note { margin-top: 8px; }
+.tier-table td { vertical-align: middle; }
+.tier-table td.tier-name { font-weight: 700; color: #e5e7eb; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.tier-table .th-cur { color: #8b95ad; font-size: 11px; font-weight: 400; }
+.tier-tag { display: inline-block; font-size: 11.5px; border-radius: 6px; padding: 1px 7px; white-space: nowrap; border: 1px solid #2a3852; }
+.tier-tag.tag-tbd  { color: #fcd34d; background: rgba(245,166,35,.10); border-color: #78530f; }
+.tier-tag.tag-none { color: #9ca3af; background: #0b1220; }
+.price-cell.tier-chg.up   { background: rgba(127,29,29,.28); }
+.price-cell.tier-chg.up .price-main   { color: #fca5a5; font-weight: 700; }
+.price-cell.tier-chg.down { background: rgba(20,83,45,.35); }
+.price-cell.tier-chg.down .price-main { color: #86efac; font-weight: 700; }
+.price-cell.tier-chg.mixed { background: rgba(245,166,35,.12); }
+.price-cell.tier-chg.mixed .price-main { color: #fcd34d; font-weight: 700; }
+.version-list { margin: 0; padding-left: 20px; color: #cbd5e1; font-size: 13px; line-height: 1.7; grid-column: 1 / -1; }

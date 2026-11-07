@@ -7,7 +7,9 @@
   "tabs": {
     "price": "Prices",
     "diff": "Latest changes",
-    "history": "History"
+    "history": "History",
+    "tier": "Price tiers",
+    "version": "Versions"
   },
   "search": "Search packs / event names…",
   "baseLabel": "Base currency",
@@ -139,5 +141,59 @@
     "error": "Failed to trigger, please try again later.",
     "notConfigured": "Refresh service not configured yet."
   },
-  "demoWarning": "⚠ Showing demo data — these are not real prices. Run scripts/fetch_store.py for live data."
+  "demoWarning": "⚠ Showing demo data — these are not real prices. Run scripts/fetch_store.py for live data.",
+  "tier": {
+    "dateA": "Point A",
+    "dateB": "Point B",
+    "fx": "Compare with exchange rates",
+    "latest": "Latest record {at}",
+    "snapshot": "Snapshot {at}",
+    "head": "US tier",
+    "tbd": "TBD",
+    "none": "No bundle listed",
+    "unknown": "Unknown",
+    "last": "Last seen: {v} ({d})",
+    "noRate": "No exchange-rate snapshot for this point",
+    "aNone": "A: no bundle listed",
+    "empty": "No price-tier records yet",
+    "compare": "{a} → {b}",
+    "changedCount": "{n} local-price changes",
+    "rateDates": "Rates A: {a} / B: {b}",
+    "note": "Each row is one US price tier; each cell is the local price of items listed at that point — never summed or averaged. If a tier has several prices, all are shown. Change marks are based on local prices only. \"TBD\" = a tier never seen in any record; \"No bundle listed\" = the tier had no listed item at that point.",
+    "fxNote": "Conversions use each point's own exchange-rate snapshot; differences caused only by exchange rates are not marked as changes."
+  },
+  "version": {
+    "title": "Version history",
+    "noDate": "Date unknown",
+    "empty": "No version history"
+  },
+  "changelog": [
+    {
+      "v": "1.5",
+      "date": "2026-11-08",
+      "items": [
+        "New \"Price tiers\" tab: one row per US price tier, showing each region's local price",
+        "Compare two points in time; cells whose local price changed are highlighted (▲ up, ▼ down, ≠ several prices in one tier)",
+        "\"Compare with exchange rates\" checkbox: converts to the base currency using each point's own rate snapshot",
+        "\"TBD\" (tier never seen) and \"No bundle listed\" (no listed item at that point) markers",
+        "New price-tier record data/tier_history.json: a snapshot is added only when a local price changes; the first run backfills from existing history",
+        "New \"Versions\" tab"
+      ]
+    },
+    {
+      "v": "1.0",
+      "date": null,
+      "items": [
+        "Prices across 37 regions, with free region selection",
+        "Cheapest / priciest highlighting, min / max / spread",
+        "Price per candle",
+        "Currency conversion (base currency, converted / original)",
+        "Search, categories, limited-time-only filter, sorting",
+        "Countdowns, listing history, badges",
+        "Item details: preview, full description, price chart, FX breakdown",
+        "Recent changes and history",
+        "Shareable links, five interface languages"
+      ]
+    }
+  ]
 }

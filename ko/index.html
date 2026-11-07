@@ -38,10 +38,12 @@
       <button id="tabPrice" class="active-tab" type="button"></button>
       <button id="tabDiff" type="button"></button>
       <button id="tabHistory" type="button"></button>
+      <button id="tabTier" type="button"></button>
+      <button id="tabVersion" type="button"></button>
     </div>
 
     <div id="priceControls">
-      <div class="row toolbar">
+      <div class="row toolbar price-only">
         <input id="searchQ" class="field-grow" autocomplete="off">
         <label class="meta chk-only-active">
           <input type="checkbox" id="onlyActive"> <span id="onlyActiveLabel"></span>
@@ -53,14 +55,14 @@
           <span id="baseLabel"></span>
           <select id="baseCurrency"></select>
         </label>
-        <label class="control-field">
+        <label class="control-field price-only">
           <span id="modeLabel"></span>
           <select id="displayMode">
             <option value="converted"></option>
             <option value="original"></option>
           </select>
         </label>
-        <label class="control-field">
+        <label class="control-field price-only">
           <span id="sortLabel"></span>
           <select id="sortMode">
             <option value="cheapest"></option>
@@ -73,7 +75,7 @@
         </label>
       </div>
 
-      <div id="groupChips" class="row chip-row"></div>
+      <div id="groupChips" class="row chip-row price-only"></div>
 
       <div class="region-head">
         <span id="regionsLabel"></span>
@@ -105,6 +107,28 @@
 
     <div id="panelHistory" class="hidden">
       <div id="historyWrap"></div>
+    </div>
+
+    <div id="panelTier" class="hidden">
+      <div class="control-grid tier-controls">
+        <label class="control-field">
+          <span id="tierALabel"></span>
+          <select id="tierA"></select>
+        </label>
+        <label class="control-field">
+          <span id="tierBLabel"></span>
+          <select id="tierB"></select>
+        </label>
+        <label class="meta chk-only-active">
+          <input type="checkbox" id="tierFx"> <span id="tierFxLabel"></span>
+        </label>
+      </div>
+      <p id="tierNote" class="meta tier-note"></p>
+      <div class="table-wrap" id="tierTableWrap"></div>
+    </div>
+
+    <div id="panelVersion" class="hidden">
+      <div id="versionWrap"></div>
     </div>
   </section>
 

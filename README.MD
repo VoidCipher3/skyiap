@@ -25,6 +25,9 @@ data/store.json           商品 + 各地區價格（可重建）
 data/store_diff.json      變更、歷史、上架履歷（累積，無法重建）
 data/price_history.json   價格時間線 + 各日匯率快照（累積，無法重建）
 data/desc.{lang}.json     完整說明，前端按語言分別載入
+data/tier_history.json    價位對照紀錄（累積，第一次執行時從既有歷史回填）
+tools/tier_history.py     產生 tier_history.json，只用 Python 標準庫
+CHANGELOG.md              網站版本紀錄
 worker/                   Cloudflare Worker：定時排程 + 密碼手動刷新
 ```
 ---
@@ -45,5 +48,31 @@ worker/                   Cloudflare Worker：定時排程 + 密碼手動刷新
 | 變更 / 歷史 | 新增／下架／改價（紅漲綠跌），含商品圖片，最多 200 筆可展開 |
 | 分享連結 | 地區、基準幣、排序、搜尋等狀態都寫進網址 |
 | 語言 | tw / cn / en / ja / ko |
+| 價位對照 | 以美區價格級距為列，列出各地區當地價；選兩個時間點對照，可勾選「比較匯率」 |
+| 版本 | 網站版本紀錄，五種語言 |
 
 ---
+
+## 價位對照（v1.5）
+
+`tools/tier_history.py` 在 `main.py` 之後執行（見 `fetch.yml`），讀 `data/store.json`
+寫 `data/tier_history.json`。放在 `tools/` 而不是 `scripts/`：`scripts/` 在 `.gitignore`
+裡（`main.py` 會把 secret 腳本寫進去），放那裡不會進 repo。
+
+- 一列是一個美區價格級距，格子是當下在架、美區標這個價的商品在該區的當地價。
+  不加總、不平均、不取眾數；同一級距出現不同價時全部列出。
+- **只有當地價變動才新增快照**。禮包上下架、級距暫時沒有商品、第一次出現的級距，
+  都只更新 `current` / `known`，不新增快照。匯率跟著快照存，匯率變動本身不算。
+- 「待定」：所有紀錄都沒出現過的級距。「當前無禮包」：出現過，但該時間點沒有在架商品，
+  格子附最後一次看到的值與日期。
+- 「比較匯率」勾選後，每個時間點用自己的匯率快照換算；變動標記仍只看當地價。
+- 固定級距清單在 `tools/tier_history.py` 的 `TIERS`，增減級距只改那一行。
+  實際出現但不在清單裡的級距仍會記錄並顯示，同時列在 `meta.untracked_tiers`。
+- `data/tier_history.json` 不存在時，用 `price_history.json` 加上 `store_diff.json`
+  的上架區間（`catalog.appearances`）回填；只算當天在架的商品，已下架商品殘留的舊價不會混進來。
+- 腳本失敗不會擋住價格更新（`continue-on-error`）。
+
+## 版本紀錄
+
+網站「版本」分頁的內容在 `assets/i18n/{lang}.json` 的 `changelog`；
+`CHANGELOG.md` 是繁中版本，改版時兩邊一起更新。

@@ -19,6 +19,7 @@ const DEFAULT_REGIONS = ["TW", "CN", "US", "JP", "KR", "HK"];
 const DEFAULT_BASE = { tw: "TWD", cn: "CNY", en: "USD", ja: "JPY", ko: "KRW" }[LANG] || "USD";
 const BASE_CHOICES = ["TWD", "USD", "JPY", "KRW", "HKD", "CNY", "EUR", "GBP"];
 const STORE_KEY = "sky-price-prefs-v1";
+const TABS = ["price", "diff", "history", "tier", "version"];
 
 // ---------------------------------------------------------------- 狀態
 
@@ -28,6 +29,8 @@ let store = null, meta = null, items = [];
 let regions = [], regionCurrency = {};
 let latest = null, changeLog = [], catalog = {}, diffMeta = {};
 let priceHistory = null;
+let tierData = null;               // tier_history.json：價位對照
+let tierPick = { a: null, b: null }; // 價位對照的兩個日期（選項 value：s0…sN / cur）
 let descriptions = null;           // desc.{lang}.json，延遲載入
 let selectedRegions = new Set(DEFAULT_REGIONS);
 let activeGroup = "";
@@ -66,11 +69,13 @@ function readUrlState() {
   const r = q.get("r");
   if (r) out.regions = r.split(",").map(x => x.trim().toUpperCase()).filter(Boolean);
   for (const [key, param] of [["base", "b"], ["mode", "m"], ["sort", "s"],
-                              ["query", "q"], ["group", "g"], ["tab", "t"]]) {
+                              ["query", "q"], ["group", "g"], ["tab", "t"],
+                              ["tierA", "ta"], ["tierB", "tb"]]) {
     const v = q.get(param);
     if (v != null) out[key] = v;
   }
   if (q.has("a")) out.onlyActive = q.get("a") === "1";
+  if (q.has("tx")) out.tierFx = q.get("tx") === "1";
   return out;
 }
 
@@ -90,6 +95,11 @@ function writeUrlState() {
   if (activeGroup) q.set("g", activeGroup);
   if ($("onlyActive").checked) q.set("a", "1");
   if (tab !== "price") q.set("t", tab);
+  if (tab === "tier") {
+    if ($("tierA").value) q.set("ta", $("tierA").value);
+    if ($("tierB").value) q.set("tb", $("tierB").value);
+    if ($("tierFx").checked) q.set("tx", "1");
+  }
   const qs = q.toString();
   // 一定要寫 window.history：模組裡有個叫 changeLog 的變數，
   // 早期版本命名成 history 時會遮蔽掉全域的 history，導致網址靜默不更新
@@ -114,7 +124,9 @@ function loadPrefs() {
   if (url.query) $("searchQ").value = url.query;
   if (url.group) activeGroup = url.group;
   if (url.onlyActive) $("onlyActive").checked = true;
-  if (url.tab && ["price", "diff", "history"].includes(url.tab)) tab = url.tab;
+  if (url.tab && TABS.includes(url.tab)) tab = url.tab;
+  tierPick = { a: url.tierA || null, b: url.tierB || null };
+  $("tierFx").checked = !!pick(url.tierFx, saved.tierFx);
 }
 
 function savePrefs() {
@@ -123,6 +135,7 @@ function savePrefs() {
     localStorage.setItem(STORE_KEY, JSON.stringify({
       regions: [...selectedRegions], base: $("baseCurrency").value,
       mode: $("displayMode").value, sort: $("sortMode").value,
+      tierFx: $("tierFx").checked,
     }));
   } catch { /* 無痕模式寫不進去，忽略 */ }
 }
@@ -522,6 +535,171 @@ function renderHistory() {
   }).join("");
 }
 
+// ---------------------------------------------------------------- 價位對照
+
+/*
+ * 資料來自 data/tier_history.json（tools/tier_history.py 產生）。
+ * 一列是一個美區價格級距，格子是該級距當時在架商品的當地價。
+ * - 待定：所有紀錄裡都沒出現過的級距
+ * - 當前無禮包：出現過，但所選時間點沒有在架商品（附最後一次看到的值）
+ * - 變動標記只看當地價；勾「比較匯率」時換算數字會因匯率不同而不同，不算變動
+ */
+const LOCAL_FMT = {};
+function fmtLocal(v) {
+  const locale = { tw: "zh-Hant", cn: "zh-Hans", ja: "ja", ko: "ko" }[LANG] || "en";
+  LOCAL_FMT[locale] ||= new Intl.NumberFormat(locale, { maximumFractionDigits: 2 });
+  return LOCAL_FMT[locale].format(v);
+}
+const fmtLocalList = (vals) => vals.map(fmtLocal).join(" / ");
+
+function tierRecords() {
+  if (!tierData) return [];
+  const list = (tierData.snapshots || []).map((s, i) => ({ id: `s${i}`, rec: s, known: s.known || {} }));
+  if (tierData.current) list.push({ id: "cur", rec: tierData.current, known: tierData.known || {}, latest: true });
+  return list;
+}
+
+function tierLabel(r) {
+  return r.latest ? t("tier.latest", { at: r.rec.at }) : t("tier.snapshot", { at: r.rec.at });
+}
+
+function renderTierOptions() {
+  const recs = tierRecords();
+  const fill = (sel, want, fallback) => {
+    sel.innerHTML = recs.map(r => `<option value="${esc(r.id)}">${esc(tierLabel(r))}</option>`).join("");
+    const ids = recs.map(r => r.id);
+    sel.value = ids.includes(want) ? want : fallback;
+    sel.disabled = !recs.length;
+  };
+  // 預設：最早的快照 對 最新紀錄
+  fill($("tierA"), tierPick.a, recs[0]?.id || "");
+  fill($("tierB"), tierPick.b, recs[recs.length - 1]?.id || "");
+  tierPick = { a: $("tierA").value, b: $("tierB").value };
+}
+
+function tierRows() {
+  const fixed = tierData?.meta?.tiers || [];
+  const seen = Object.keys(tierData?.known || {});
+  return [...new Set([...fixed, ...seen])].sort((a, b) => parseFloat(a) - parseFloat(b));
+}
+
+/** 某時間點、某級距、某地區的狀態。 */
+function tierCell(r, tier, code) {
+  if (!(tier in (tierData.known || {}))) return { state: "tbd" };
+  const present = r.rec.cells?.[tier];
+  if (present) {
+    const v = present[code];
+    return v ? { state: "ok", v } : { state: "unknown" };
+  }
+  return { state: "none", last: r.known?.[tier]?.[code] || null };
+}
+const cmpVal = (c) => c.state === "ok" ? c.v : c.state === "none" && c.last ? c.last.v : null;
+
+function convList(vals, code, base, rates) {
+  if (!rates) return null;
+  const out = vals.map(v => convertAt(v, currencyOf(code), base, rates));
+  return out.some(x => x == null) ? null : out;
+}
+const fmtConvList = (vals, base) => vals.map(v => fmtMoney(v, base, "symbol")).join(" / ");
+
+function tierCellHtml(A, B, a, b, code, fx, base) {
+  const label = regionShort(code);
+  if (b.state === "tbd") return `<td class="price-cell tier-tbd" data-label="${esc(label)}"><span class="tier-tag tag-tbd">${esc(t("tier.tbd"))}</span></td>`;
+  if (b.state === "unknown") return `<td class="price-cell dash" data-label="${esc(label)}">${esc(t("tier.unknown"))}</td>`;
+
+  const va = cmpVal(a), vb = cmpVal(b);
+  const changed = va && vb && JSON.stringify(va) !== JSON.stringify(vb);
+  let dir = "";
+  if (changed) dir = (va.length === 1 && vb.length === 1) ? (vb[0] > va[0] ? "up" : "down") : "mixed";
+  const arrow = { up: " ▲", down: " ▼", mixed: " ≠" }[dir] || "";
+  const cls = ["price-cell", changed && `tier-chg ${dir}`].filter(Boolean).join(" ");
+
+  if (b.state === "none") {
+    const last = b.last ? `<div class="price-sub">${esc(t("tier.last", { v: fmtLocalList(b.last.v), d: b.last.seen }))}</div>` : "";
+    const chg = changed ? `<div class="price-sub chg ${dir === "mixed" ? "" : dir}">${esc(`${fmtLocalList(va)} → ${fmtLocalList(vb)}${arrow}`)}</div>` : "";
+    return `<td class="${cls}" data-label="${esc(label)}"><span class="tier-tag tag-none">${esc(t("tier.none"))}</span>${last}${chg}</td>`;
+  }
+
+  // b.state === "ok"
+  const loc = changed ? `${fmtLocalList(va)} → ${fmtLocalList(vb)}${arrow}` : fmtLocalList(vb);
+  let main = loc, sub = "";
+  if (fx) {
+    const cb = convList(vb, code, base, B.rec.rates);
+    // A 那邊若是「當前無禮包」，比較用的是最後一次看到的值，沒有對應的匯率快照，
+    // 只換算 B，A → B 留在當地價那行
+    const ca = changed && a.state === "ok" ? convList(va, code, base, A.rec.rates) : null;
+    if (cb) {
+      main = ca ? `${fmtConvList(ca, base)} → ${fmtConvList(cb, base)}` : fmtConvList(cb, base);
+      sub = loc;
+    } else {
+      sub = t("tier.noRate");
+    }
+  }
+  const note = a.state === "none" ? t("tier.aNone") : "";
+  return `<td class="${cls}" data-label="${esc(label)}">
+    <div class="price-main">${esc(main)}</div>${sub ? `<div class="price-sub">${esc(sub)}</div>` : ""}${
+    note ? `<div class="price-sub">${esc(note)}</div>` : ""}</td>`;
+}
+
+function renderTierTable() {
+  const wrap = $("tierTableWrap");
+  const recs = tierRecords();
+  if (!tierData || !recs.length) {
+    wrap.innerHTML = `<div class="empty-table">${esc(t("tier.empty"))}</div>`;
+    $("dataMeta").textContent = "";
+    $("tierNote").textContent = "";
+    return;
+  }
+  const selected = orderedRegions();
+  if (!selected.length) {
+    wrap.innerHTML = `<div class="empty-table">${esc(t("emptyRegions"))}</div>`;
+    return;
+  }
+  const A = recs.find(r => r.id === $("tierA").value) || recs[0];
+  const B = recs.find(r => r.id === $("tierB").value) || recs[recs.length - 1];
+  const fx = $("tierFx").checked && hasRates();
+  const base = $("baseCurrency").value;
+
+  let html = `<table class="responsive-table price-table tier-table"><thead><tr><th class="col-tier">${esc(t("tier.head"))}</th>${
+    selected.map(c => `<th>${esc(regionShort(c))}<div class="th-cur">${esc(currencyOf(c))}</div></th>`).join("")}</tr></thead><tbody>`;
+  let nChanged = 0;
+  for (const tier of tierRows()) {
+    const cells = selected.map(code => {
+      const a = tierCell(A, tier, code), b = tierCell(B, tier, code);
+      const va = cmpVal(a), vb = cmpVal(b);
+      if (va && vb && JSON.stringify(va) !== JSON.stringify(vb)) nChanged++;
+      return tierCellHtml(A, B, a, b, code, fx, base);
+    });
+    html += `<tr><td class="name-cell tier-name">USD ${esc(tier)}</td>${cells.join("")}</tr>`;
+  }
+  wrap.innerHTML = html + "</tbody></table>";
+
+  const parts = [t("tier.compare", { a: tierLabel(A), b: tierLabel(B) }), t("tier.changedCount", { n: nChanged })];
+  if (fx) {
+    const rd = (r) => r.rec.rate_date ? String(r.rec.rate_date).slice(0, 16) : t("tier.unknown");
+    parts.push(t("tier.rateDates", { a: rd(A), b: rd(B) }));
+  }
+  $("dataMeta").textContent = parts.join(" · ");
+  $("tierNote").textContent = t("tier.note") + (fx ? " " + t("tier.fxNote") : "");
+}
+
+// ---------------------------------------------------------------- 版本紀錄
+
+function renderVersion() {
+  $("dataMeta").textContent = t("version.title");
+  const list = Array.isArray(T.changelog) ? T.changelog : [];
+  $("versionWrap").innerHTML = list.length ? list.map((v, i) => `
+    <details class="history-item"${i === 0 ? " open" : ""}>
+      <summary>
+        <span class="history-time">v${esc(v.v)}</span>
+        <span class="history-sum">${esc(v.date || t("version.noDate"))}</span>
+      </summary>
+      <div class="history-body"><ul class="version-list">${
+        (v.items || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+    </details>`).join("")
+    : `<div class="empty-table">${esc(t("version.empty"))}</div>`;
+}
+
 // ---------------------------------------------------------------- 走勢圖
 
 const LINE_COLORS = ["#93c5fd", "#86efac", "#fca5a5", "#fcd34d",
@@ -761,16 +939,21 @@ function renderBaseOptions() {
 function renderTab() {
   if (tab === "price") renderPriceTable();
   else if (tab === "diff") renderDiff();
+  else if (tab === "tier") renderTierTable();
+  else if (tab === "version") renderVersion();
   else renderHistory();
 }
 
+const cap = (s) => s[0].toUpperCase() + s.slice(1);
 function setTab(name) {
   tab = name;
-  ["Price", "Diff", "History"].forEach(n =>
-    $(`tab${n}`).classList.toggle("active-tab", n.toLowerCase() === name));
-  ["panelPrice", "panelDiff", "panelHistory"].forEach(id =>
-    $(id).classList.toggle("hidden", id !== `panel${name[0].toUpperCase()}${name.slice(1)}`));
-  $("priceControls").classList.toggle("hidden", name !== "price");
+  TABS.forEach(n => {
+    $(`tab${cap(n)}`).classList.toggle("active-tab", n === name);
+    $(`panel${cap(n)}`).classList.toggle("hidden", n !== name);
+  });
+  // 價位對照沿用基準幣與地區勾選；搜尋、分類、排序、顯示模式對它沒有意義，藏起來
+  $("priceControls").classList.toggle("hidden", name !== "price" && name !== "tier");
+  $("priceControls").classList.toggle("tier-mode", name === "tier");
   writeUrlState();
   renderTab();
 }
@@ -784,6 +967,11 @@ function applyStaticText() {
   $("tabPrice").textContent = t("tabs.price");
   $("tabDiff").textContent = t("tabs.diff");
   $("tabHistory").textContent = t("tabs.history");
+  $("tabTier").textContent = t("tabs.tier");
+  $("tabVersion").textContent = t("tabs.version");
+  $("tierALabel").textContent = t("tier.dateA");
+  $("tierBLabel").textContent = t("tier.dateB");
+  $("tierFxLabel").textContent = t("tier.fx");
   $("searchQ").placeholder = t("search");
   $("baseLabel").textContent = t("baseLabel");
   $("modeLabel").textContent = t("modeLabel");
@@ -849,10 +1037,11 @@ async function fetchJson(name) {
 async function loadAll() {
   setMsg("…");
   try {
-    const [s, d, h] = await Promise.all([
+    const [s, d, h, th] = await Promise.all([
       fetchJson("store"),
       fetchJson("store_diff").catch(() => ({})),
       fetchJson("price_history").catch(() => null),
+      fetchJson("tier_history").catch(() => null),
     ]);
     if (s.schema && s.schema !== SCHEMA) {
       setMsg(`⚠ data schema ${s.schema} ≠ app schema ${SCHEMA}`);
@@ -865,6 +1054,8 @@ async function loadAll() {
     catalog = d?.catalog || {};
     diffMeta = d?.meta || {};
     priceHistory = h;
+    tierData = th;
+    renderTierOptions();
 
     const available = new Set(regions);
     const kept = [...selectedRegions].filter(c => available.has(c));
@@ -906,6 +1097,11 @@ async function init() {
   $("tabPrice").onclick = () => setTab("price");
   $("tabDiff").onclick = () => setTab("diff");
   $("tabHistory").onclick = () => setTab("history");
+  $("tabTier").onclick = () => setTab("tier");
+  $("tabVersion").onclick = () => setTab("version");
+  $("tierA").onchange = () => { tierPick.a = $("tierA").value; writeUrlState(); renderTab(); };
+  $("tierB").onchange = () => { tierPick.b = $("tierB").value; writeUrlState(); renderTab(); };
+  $("tierFx").onchange = () => { savePrefs(); renderTab(); };
   $("searchQ").oninput = () => { writeUrlState(); renderTab(); };
   $("onlyActive").onchange = () => { writeUrlState(); renderTab(); };
   $("baseCurrency").onchange = () => { savePrefs(); renderTab(); if (chartSku) renderDetail(); };

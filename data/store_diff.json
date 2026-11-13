@@ -1,15 +1,16 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-11-13 15:30:32",
+    "checked": "2026-11-13 16:00:31",
     "first_run": false,
-    "history_count": 11,
+    "history_count": 12,
     "history_limit": 200,
     "history_trimmed": 0
   },
   "latest": {
-    "at": "2026-10-23 15:20:46",
-    "added": [
+    "at": "2026-11-13 16:00:31",
+    "added": [],
+    "removed": [
       {
         "sku": "xsolla.sky.snc05"
       },
@@ -62,17 +63,79 @@
         "sku": "xsolla.sky.snc98"
       }
     ],
-    "removed": [],
     "changed": [],
     "n": [
-      17,
       0,
+      17,
       0
     ],
     "recorded": true,
-    "unchanged_since": true
+    "unchanged_since": false
   },
   "history": [
+    {
+      "at": "2026-11-13 16:00:31",
+      "added": [],
+      "removed": [
+        {
+          "sku": "xsolla.sky.snc05"
+        },
+        {
+          "sku": "xsolla.sky.snc06"
+        },
+        {
+          "sku": "xsolla.sky.snc128"
+        },
+        {
+          "sku": "xsolla.sky.snc129"
+        },
+        {
+          "sku": "xsolla.sky.snc14"
+        },
+        {
+          "sku": "xsolla.sky.snc15"
+        },
+        {
+          "sku": "xsolla.sky.snc170"
+        },
+        {
+          "sku": "xsolla.sky.snc171"
+        },
+        {
+          "sku": "xsolla.sky.snc36"
+        },
+        {
+          "sku": "xsolla.sky.snc37"
+        },
+        {
+          "sku": "xsolla.sky.snc38"
+        },
+        {
+          "sku": "xsolla.sky.snc39"
+        },
+        {
+          "sku": "xsolla.sky.snc61"
+        },
+        {
+          "sku": "xsolla.sky.snc62"
+        },
+        {
+          "sku": "xsolla.sky.snc96"
+        },
+        {
+          "sku": "xsolla.sky.snc97"
+        },
+        {
+          "sku": "xsolla.sky.snc98"
+        }
+      ],
+      "changed": [],
+      "n": [
+        0,
+        17,
+        0
+      ]
+    },
     {
       "at": "2026-10-23 15:20:46",
       "added": [
@@ -1732,7 +1795,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1751,7 +1814,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1770,7 +1833,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1789,7 +1852,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1808,7 +1871,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1827,7 +1890,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1846,7 +1909,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1865,7 +1928,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1884,7 +1947,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1903,7 +1966,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1922,7 +1985,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1941,7 +2004,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1960,7 +2023,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1979,7 +2042,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -1998,7 +2061,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -2017,7 +2080,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     },
@@ -2036,7 +2099,7 @@
       "appearances": [
         [
           "2026-10-23",
-          null
+          "2026-11-13"
         ]
       ]
     }

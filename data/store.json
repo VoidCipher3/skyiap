@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "meta": {
-    "fetched": "2026-11-18 10:00:34",
+    "fetched": "2026-11-18 10:30:35",
     "project": "207830",
     "groups": [
       "events",
@@ -880,7 +880,7 @@
         "ja": "星月夜の傘",
         "ko": "별이 빛나는 밤의 우산"
       },
-      "image": "https://sky.thatg.co/xsolla/snc210-9188d8eaba6026259abab3e8d160e029.png",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/834e896103b4b65d3f800366ee9cc7aa.gif",
       "group": "evergreen",
       "prices": {
         "TW": 490.0,

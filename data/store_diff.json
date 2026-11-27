@@ -1,38 +1,23 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-11-27 16:00:31",
+    "checked": "2026-11-27 16:30:42",
     "first_run": false,
-    "history_count": 13,
+    "history_count": 14,
     "history_limit": 200,
     "history_trimmed": 0
   },
   "latest": {
-    "at": "2026-11-27 16:00:31",
+    "at": "2026-11-27 16:30:42",
     "added": [
       {
-        "sku": "xsolla.sky.snc125"
-      },
-      {
-        "sku": "xsolla.sky.snc221"
-      },
-      {
-        "sku": "xsolla.sky.snc222"
-      },
-      {
-        "sku": "xsolla.sky.snc91"
-      },
-      {
-        "sku": "xsolla.sky.snc92"
-      },
-      {
-        "sku": "xsolla.sky.snc93"
+        "sku": "xsolla.sky.snc220"
       }
     ],
     "removed": [],
     "changed": [],
     "n": [
-      6,
+      1,
       0,
       0
     ],
@@ -40,6 +25,21 @@
     "unchanged_since": false
   },
   "history": [
+    {
+      "at": "2026-11-27 16:30:42",
+      "added": [
+        {
+          "sku": "xsolla.sky.snc220"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "n": [
+        1,
+        0,
+        0
+      ]
+    },
     {
       "at": "2026-11-27 16:00:31",
       "added": [
@@ -2166,7 +2166,7 @@
         "ko": "스타일 와이드 진"
       },
       "group": "events",
-      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/e50bedd3c0c68f44c2a5a8fa428c5584.gif",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/d46cafe8f360a9d44acde33daf0bf3e5.gif",
       "first": "2026-11-27",
       "last": "2026-11-27",
       "appearances": [
@@ -2185,7 +2185,7 @@
         "ko": "스타일 불꽃 선글라스"
       },
       "group": "events",
-      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/9e37334e26d106c2a1430e0a2562040a.gif",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/368a8220089319f184acac239d394852.gif",
       "first": "2026-11-27",
       "last": "2026-11-27",
       "appearances": [
@@ -2204,7 +2204,26 @@
         "ko": "스타일 하트 선글라스"
       },
       "group": "events",
-      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/eed3a63ac436c63f31deed4d57f39d09.gif",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/309ab55451201aebcab2efb2f2969f92.gif",
+      "first": "2026-11-27",
+      "last": "2026-11-27",
+      "appearances": [
+        [
+          "2026-11-27",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc220": {
+      "name": {
+        "tw": "珍珠號",
+        "cn": "珍珠号",
+        "en": "The Pearl",
+        "ja": "真珠号",
+        "ko": "진주"
+      },
+      "group": "seasons",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/2c1b1f62a12496df09433d9861209feb.gif",
       "first": "2026-11-27",
       "last": "2026-11-27",
       "appearances": [

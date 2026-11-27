@@ -1,78 +1,75 @@
 {
   "schema": 1,
   "meta": {
-    "checked": "2026-11-27 15:30:35",
+    "checked": "2026-11-27 16:00:31",
     "first_run": false,
-    "history_count": 12,
+    "history_count": 13,
     "history_limit": 200,
     "history_trimmed": 0
   },
   "latest": {
-    "at": "2026-11-13 16:00:31",
-    "added": [],
-    "removed": [
+    "at": "2026-11-27 16:00:31",
+    "added": [
       {
-        "sku": "xsolla.sky.snc05"
+        "sku": "xsolla.sky.snc125"
       },
       {
-        "sku": "xsolla.sky.snc06"
+        "sku": "xsolla.sky.snc221"
       },
       {
-        "sku": "xsolla.sky.snc128"
+        "sku": "xsolla.sky.snc222"
       },
       {
-        "sku": "xsolla.sky.snc129"
+        "sku": "xsolla.sky.snc91"
       },
       {
-        "sku": "xsolla.sky.snc14"
+        "sku": "xsolla.sky.snc92"
       },
       {
-        "sku": "xsolla.sky.snc15"
-      },
-      {
-        "sku": "xsolla.sky.snc170"
-      },
-      {
-        "sku": "xsolla.sky.snc171"
-      },
-      {
-        "sku": "xsolla.sky.snc36"
-      },
-      {
-        "sku": "xsolla.sky.snc37"
-      },
-      {
-        "sku": "xsolla.sky.snc38"
-      },
-      {
-        "sku": "xsolla.sky.snc39"
-      },
-      {
-        "sku": "xsolla.sky.snc61"
-      },
-      {
-        "sku": "xsolla.sky.snc62"
-      },
-      {
-        "sku": "xsolla.sky.snc96"
-      },
-      {
-        "sku": "xsolla.sky.snc97"
-      },
-      {
-        "sku": "xsolla.sky.snc98"
+        "sku": "xsolla.sky.snc93"
       }
     ],
+    "removed": [],
     "changed": [],
     "n": [
+      6,
       0,
-      17,
       0
     ],
     "recorded": true,
-    "unchanged_since": true
+    "unchanged_since": false
   },
   "history": [
+    {
+      "at": "2026-11-27 16:00:31",
+      "added": [
+        {
+          "sku": "xsolla.sky.snc125"
+        },
+        {
+          "sku": "xsolla.sky.snc221"
+        },
+        {
+          "sku": "xsolla.sky.snc222"
+        },
+        {
+          "sku": "xsolla.sky.snc91"
+        },
+        {
+          "sku": "xsolla.sky.snc92"
+        },
+        {
+          "sku": "xsolla.sky.snc93"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "n": [
+        6,
+        0,
+        0
+      ]
+    },
     {
       "at": "2026-11-13 16:00:31",
       "added": [],
@@ -2100,6 +2097,120 @@
         [
           "2026-10-23",
           "2026-11-13"
+        ]
+      ]
+    },
+    "xsolla.sky.snc125": {
+      "name": {
+        "tw": "優雅三件套",
+        "cn": "风尚玲珑三件套",
+        "en": "Style Dapper Trio",
+        "ja": "お洒落スタイリッシュトリオ",
+        "ko": "스타일 대퍼 트리오"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/96d516804020f2d73b93e21d0c3917b2.gif",
+      "first": "2026-11-27",
+      "last": "2026-11-27",
+      "appearances": [
+        [
+          "2026-11-27",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc221": {
+      "name": {
+        "tw": "風格蓬鬆外套",
+        "cn": "时尚蓬松外套",
+        "en": "Style Fluffy Coat",
+        "ja": "お洒落ファーコート",
+        "ko": "멋쟁이 푹신한 코트"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/cc57d4086f64fab13e423ffde66d440b.gif",
+      "first": "2026-11-27",
+      "last": "2026-11-27",
+      "appearances": [
+        [
+          "2026-11-27",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc222": {
+      "name": {
+        "tw": "風格蝴蝶髮夾",
+        "cn": "时尚蝴蝶发夹",
+        "en": "Style Butterfly Clips ",
+        "ja": "お洒落バタフライクリップ",
+        "ko": "멋쟁이 나비 헤어핀"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/b729f29f5f2a15802f5d13b9d639131b.gif",
+      "first": "2026-11-27",
+      "last": "2026-11-27",
+      "appearances": [
+        [
+          "2026-11-27",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc91": {
+      "name": {
+        "tw": "風格寬版牛仔褲",
+        "cn": "时尚阔腿牛仔裤",
+        "en": "Style Wide-Leg Jeans",
+        "ja": "お洒落ワイドデニム",
+        "ko": "스타일 와이드 진"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/e50bedd3c0c68f44c2a5a8fa428c5584.gif",
+      "first": "2026-11-27",
+      "last": "2026-11-27",
+      "appearances": [
+        [
+          "2026-11-27",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc92": {
+      "name": {
+        "tw": "風格烈焰太陽眼鏡",
+        "cn": "时尚烈焰太阳镜",
+        "en": "Style Flame Sunglasses",
+        "ja": "お洒落ファイアサングラス",
+        "ko": "스타일 불꽃 선글라스"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/9e37334e26d106c2a1430e0a2562040a.gif",
+      "first": "2026-11-27",
+      "last": "2026-11-27",
+      "appearances": [
+        [
+          "2026-11-27",
+          null
+        ]
+      ]
+    },
+    "xsolla.sky.snc93": {
+      "name": {
+        "tw": "風格心形太陽眼鏡",
+        "cn": "时尚爱心太阳镜",
+        "en": "Style Heart Sunglasses",
+        "ja": "お洒落ハートサングラス",
+        "ko": "스타일 하트 선글라스"
+      },
+      "group": "events",
+      "image": "https://cdn.xsolla.net/merchant-bucket-prod/files/uploaded/366922/eed3a63ac436c63f31deed4d57f39d09.gif",
+      "first": "2026-11-27",
+      "last": "2026-11-27",
+      "appearances": [
+        [
+          "2026-11-27",
+          null
         ]
       ]
     }
